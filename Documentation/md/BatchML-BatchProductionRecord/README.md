@@ -1,4 +1,4 @@
-# Batch Production Record
+# BatchML - Batch Production Record
 
 The Business To Manufacturing Markup Language (B2MML) is used courtesy of MESA International.
 
@@ -25,7 +25,7 @@ This information is based on the data models and attributes defined in the ANSI/
 
 ### Referenced Schemas
 
-This document provides addresses the contents of the following MESA XML schema [BatchML-BatchProductionRecord.xsd](../Schema/BatchML-BatchProductionRecord.xsd)
+This document provides addresses the contents of the following MESA XML schema [BatchML-BatchProductionRecord.xsd](../../../Schema/BatchML-BatchProductionRecord.xsd)
 
 ### Key Use Assumptions
 
@@ -38,7 +38,7 @@ The schemas define simple and complex types and elements for recipe, equipment a
 ### Common Data Types
 
 The BatchML BatchInformation schema used the B2MML Common schema to pick up common data types. 
-See the documentation for the Common Types: [B2MML-Common](B2MML-Common.md)
+See the documentation for the Common Types: [B2MML-Common](../B2MML-Common)
 
 ### Core Components
 
@@ -72,7 +72,7 @@ The XML schema uses a model that defines simple and complex data types for each 
 
 In order to make the schemas more useful, they include the ability for elements to be extended.  The extended elements are not defined in this standard and should not be considered understandable between applications without prior agreement.   
 
-See the definition of user extensions in [B2MML-Extensions](B2MML-Extensions.md)
+See the definition of user extensions in [B2MML-Extensions](../B2MML-Extensions)
 
 ## Batch production record Models
 
@@ -155,9 +155,9 @@ The ordered data set is modeled using a “choice” element as either:
 
 The master recipe, control recipe, and recipe procedure elements are defined in ANSI/ISA-88.01 standard.
 
-The Batch Production Record schema uses the element definitions defined in [BatchML-BatchInformation.md](BatchML-BatchInformation.md)
+The Batch Production Record schema uses the element definitions defined in [BatchML-BatchInformation.md](../BatchML-BatchInformation)
 
-The Batch Production Record schema uses the schema definitions from the BatchML file [BatchML-BatchInformation.xsd](../Schema/BatchML-BatchInformation.xsd)
+The Batch Production Record schema uses the schema definitions from the BatchML file [BatchML-BatchInformation.xsd](../../../Schema/BatchML-BatchInformation.xsd)
 
 ### Operations elements
 
@@ -165,9 +165,9 @@ The production request, production response, and product definition elements are
 
 |                           | document                                                          | schema |
 |---------------------------|-------------------------------------------------------------------|--------|
-| operations definition     |[B2MML-OperationsDefinition.md](B2MML-OperationsDefinition.md)     |[B2MML-OperationsDefinition.xsd](../Schenma/B2MML-OperationsDefinition.xsd)
-| operations perfromance    |[B2MML-OperationsPerformance.md](B2MML-OperationsPerformance.md)   |[B2MML-OperationsPerformance.xsd](../Schema/B2MML-OperationsPerformance.xsd)
-| operations schedule       |[B2MML-OperationsSchedule.md](B2MML-OperationsSchedule.md)         |[B2MML-OperationsSchedule.xsd](../Schema/B2MML-OperationsSchedule.xsd)
+| operations definition     |[B2MML-OperationsDefinition.md](../B2MML-OperationsDefinition)     |[B2MML-OperationsDefinition.xsd](../../../Schenma/B2MML-OperationsDefinition.xsd)
+| operations perfromance    |[B2MML-OperationsPerformance.md](../B2MML-OperationsPerformance)   |[B2MML-OperationsPerformance.xsd](../../../Schema/B2MML-OperationsPerformance.xsd)
+| operations schedule       |[B2MML-OperationsSchedule.md](../B2MML-OperationsSchedule)         |[B2MML-OperationsSchedule.xsd](../../../Schema/B2MML-OperationsSchedule.xsd)
 
 ### Production elements
 
@@ -175,9 +175,9 @@ The production request, production response, and product definition elements are
 
 |                           | document                                                          | schema |
 |---------------------------|-------------------------------------------------------------------|--------|
-|product definition         |[B2MML-ProductDefinition.md](B2MML-ProductDefinition.md)           |[B2MML-ProductDefinition.xsd](../Schema/B2MML-ProductDefinition.xsd)
-|production performance     |[B2MML-ProductionPerformance.md](B2MML-ProductionPerformance.md)   |[B2MML-ProductionPerformance.xsd](../Schema/B2MML-ProductionPerformance.xsd)
-|production schedule        |[B2MML-ProductionSchedule.md](B2MML-ProductionSchedule.md)         |[B2MML-ProductionSchedule.xsd](../Schema/B2MML-ProductionSchedule.xsd)
+|product definition         |[B2MML-ProductDefinition.md](../B2MML-ProductDefinition)           |[B2MML-ProductDefinition.xsd](../../../Schema/B2MML-ProductDefinition.xsd)
+|production performance     |[B2MML-ProductionPerformance.md](../B2MML-ProductionPerformance)   |[B2MML-ProductionPerformance.xsd](../../../Schema/B2MML-ProductionPerformance.xsd)
+|production schedule        |[B2MML-ProductionSchedule.md](../B2MML-ProductionSchedule)         |[B2MML-ProductionSchedule.xsd](../../../Schema/B2MML-ProductionSchedule.xsd)
 
 
 ### Work elements
@@ -186,9 +186,9 @@ The production request, production response, and product definition elements are
 
 |                           | document                                                          | schema |
 |---------------------------|-------------------------------------------------------------------|--------|
-| work definition           |[B2MML-WorkDefinition.md](B2MML-WorkDefinition.md)                 |[B2MML-WorkDefinition.xsd](../Schema/B2MML-WorkDefinition.xsd)
-| work performance          |[B2MML-WorkPerformance.md](B2MML-WorkPerformance.md)               |[B2MML-WorkPerformance.xsd](../Schema/B2MML-WorkPerformance.xsd)
-| work schedule             |[B2MML-WorkSchedule.md](B2MML-WorkSchedule.md)                     |[B2MML-WorkSchedule.xsd](../Schenma/B2MML-WorkSchedule.xsd)
+| work definition           |[B2MML-WorkDefinition.md](../B2MML-WorkDefinition)                 |[B2MML-WorkDefinition.xsd](../../../Schema/B2MML-WorkDefinition.xsd)
+| work performance          |[B2MML-WorkPerformance.md](../B2MML-WorkPerformance)               |[B2MML-WorkPerformance.xsd](../../../Schema/B2MML-WorkPerformance.xsd)
+| work schedule             |[B2MML-WorkSchedule.md](../B2MML-WorkSchedule)                     |[B2MML-WorkSchedule.xsd](../../../Schenma/B2MML-WorkSchedule.xsd)
 
 ## Element Definitions
 
@@ -486,7 +486,7 @@ Container type for Comment elements.
 
 Container type for Control Recipe elements. 
 
-See [BatchML-BatchInformation.md](BatchML-BatchInformation.md) for a specification of the ControlRecipe element type.
+See [BatchML-BatchInformation.md](../BatchML-BatchInformation) for a specification of the ControlRecipe element type.
 
 ![control-recipes-type](types/control-recipes-type.jpg)
 
@@ -516,7 +516,7 @@ Container type for Event elements.
 
 Container type for MasterRecipe elements. 
 
-See [BatchML-BatchInformation.md](BatchML-BatchInformation.md) for a specification of the MasterRecipe element type.
+See [BatchML-BatchInformation.md](../BatchML-BatchInformation) for a specification of the MasterRecipe element type.
 
 ![master-recipes-type](types/master-recipes-type.jpg)
 
@@ -536,7 +536,7 @@ Container type for PersonnelIdentificationManifest elements.
 
 Container type for OperationsDefinition elements.
 
-See [B2MML-OperationsDefinition.md](B2MML-OperationsDefinition.md) for a specification of the OperationsDefinition element type.
+See [B2MML-OperationsDefinition.md](../B2MML-OperationsDefinition) for a specification of the OperationsDefinition element type.
 
 ![operations-definitions-type](types/operations-definitions-type.jpg)
 
@@ -548,7 +548,7 @@ See [B2MML-OperationsDefinition.md](B2MML-OperationsDefinition.md) for a specifi
 
 Container type for OperationsPerformance elements.
 
-See [B2MML-OperationsPerformance.md](B2MML-OperationsPerformance.md) for a specification of the OperationsPerformance element type.
+See [B2MML-OperationsPerformance.md](../B2MML-OperationsPerformance) for a specification of the OperationsPerformance element type.
 
 ![operations-performances-type](types/operations-performances-type.jpg)
 
@@ -560,7 +560,7 @@ See [B2MML-OperationsPerformance.md](B2MML-OperationsPerformance.md) for a speci
 
 Container type for OperationsSchedule elements.
 
-See [B2MML-OperationsSchedule.md](B2MML-OperationsSchedule.md) for a specification of the OperationsSchedule element type.
+See [B2MML-OperationsSchedule.md](../B2MML-OperationsSchedule) for a specification of the OperationsSchedule element type.
 
 ![operations-schedules-type](types/operations-schedules-type.jpg)
 
@@ -572,7 +572,7 @@ See [B2MML-OperationsSchedule.md](B2MML-OperationsSchedule.md) for a specificati
 
 Container type for ProductDefinition elements.
 
-See [B2MML-ProductDefinition.md](B2MML-ProductDefinition.md) for a specification of the ProductDefinition element type.
+See [B2MML-ProductDefinition.md](../B2MML-ProductDefinition) for a specification of the ProductDefinition element type.
 
 ![production-definitions-type](types/production-definitions-type.jpg)
 
@@ -584,7 +584,7 @@ See [B2MML-ProductDefinition.md](B2MML-ProductDefinition.md) for a specification
 
 Container type for ProductionPerformance elements. 
 
-See [B2MML-ProductionPerformance.md](B2MML-ProductionPerformance.md) for a specification of the ProductionPerformance element type.
+See [B2MML-ProductionPerformance.md](../B2MML-ProductionPerformance) for a specification of the ProductionPerformance element type.
 
 ![production-performances-type](types/production-performances-type.jpg)
 
@@ -596,7 +596,7 @@ See [B2MML-ProductionPerformance.md](B2MML-ProductionPerformance.md) for a speci
 
 Container type for ProductionSchedule elements.
 
-See [B2MML-ProductionSchedule](B2MML-ProductionSchedule.md) for a specification of the ProductionSchedule element type.
+See [B2MML-ProductionSchedule](../B2MML-ProductionSchedule) for a specification of the ProductionSchedule element type.
 
 ![production-schedules-type](types/production-schedules-type.jpg)
 
@@ -608,7 +608,7 @@ See [B2MML-ProductionSchedule](B2MML-ProductionSchedule.md) for a specification 
 
 Container type for RecipeElement elements.
 
-See [BatchML-BatchInformation.md](BatchML-BatchInformation.md) for a specification of the RecipeElement element type.
+See [BatchML-BatchInformation.md](../BatchML-BatchInformation) for a specification of the RecipeElement element type.
 
 ![recipe-elements-type](types/recipe-elements-type.jpg)
 
