@@ -16,7 +16,7 @@ These are changes to source docx file for subsequent changes inspect the git rep
 
 The schema diagrams using the following convention to illustrate the structure of the schema elements, the type of the elements and attributes, and the rules for optional elements and repetition. 
 
-![diagram-convention](BatchML-BatchProductionRecord/diagram-convention.jpg)
+![diagram-convention](../diagram-convention.jpg)
 
 ## Schema Scope
 This document provides explanatory information about the referenced MESA XML schemas used to exchange information about batch production records, called the Batch Markup Language, or BatchML.  
@@ -89,7 +89,7 @@ NOTE: This version has used the ANSI/ISA 95.02-2010 definition for the ISA 95 da
 
 ### 3.1 Batch production record
 
-![Batch production record model](BatchML-BatchProductionRecord/models/batch-production-record-model.jpg)
+![Batch production record model](models/batch-production-record-model.jpg)
 
 A batch production records is made up of multiple sub-records acting as container objects.  These are represented as XML elements.  Each sub-record is a collection of similarly typed individual records.  
 
@@ -101,7 +101,7 @@ All of the individual records are specialized types derived from a Batch Product
 
 ### Records with references to other records
 
-![Records with references to other records](BatchML-BatchProductionRecord/models/record-with-references-to-other-records.jpg)
+![Records with references to other records](models/record-with-references-to-other-records.jpg)
 
 *the UML model from ANSI/ISA-88.04*
 
@@ -121,7 +121,7 @@ Example 2: The EntryID contains a unique number that for each element.
 
 ### Event model
 
-![Event model](BatchML-BatchProductionRecord/models/event-model.jpg)
+![Event model](models/event-model.jpg)
 
 *the UML model from ANSI/ISA-88.04*
 
@@ -131,7 +131,7 @@ Events contain user defined records, may contain alarm event information and a s
 
 ### Sample model
 
-![Sample model](BatchML-BatchProductionRecord/models/sample-model.jpg)
+![Sample model](models/sample-model.jpg)
 
 *the UML model from ANSI/ISA-88.04*
 
@@ -139,7 +139,7 @@ Samples contain Sample Tests, and Sample Tests contain Sample Test Results.  Sam
 
 ### Data set model
 
-![data set model](BatchML-BatchProductionRecord/models/data-set-model.jpg)
+![data set model](models/data-set-model.jpg)
 
 *the UML model from ANSI/ISA-88.04*
 
@@ -249,7 +249,7 @@ Defines a received message that may contain a new, changed, or deleted BPR.
 
 ### BatchProductionRecordEntryType Group
 
-![batch-production-record-entry-type-group](BatchML-BatchProductionRecord/groups/batch-production-record-entry-type-group.jpg)
+![batch-production-record-entry-type-group](groups/batch-production-record-entry-type-group.jpg)
 
 BatchProductionRecordEntryType is a group definition that is included in most of the other BatchProductionRecord elements.
 
@@ -316,7 +316,7 @@ Additional optional additional information about the BPR.
 
 ### Batch Production Record Element
 
-![batch-production-record-element](BatchML-BatchProductionRecord/elements/batch-production-record-element.jpg)
+![batch-production-record-element](elements/batch-production-record-element.jpg)
 
 A top level element is a **BatchProductionRecord** element or type **BatchProductionRecordType**.
 
@@ -468,7 +468,7 @@ The current version of the BPR.
 
 Container type for Change elements.
 
-![change-history-type](BatchML-BatchProductionRecord/types/change-history-type.jpg)
+![change-history-type](types/change-history-type.jpg)
 
 #### Comments
 
@@ -476,9 +476,9 @@ Container type for Change elements.
 
 Container type for Comment elements. 
 
-![comments-type](BatchML-BatchProductionRecord/types/comments-type.jpg)
+![comments-type](types/comments-type.jpg)
 
-![comment](BatchML-BatchProductionRecord/elements/comment.jpg)
+![comment](elements/comment.jpg)
 
 #### ControlRecipes
 
@@ -488,9 +488,9 @@ Container type for Control Recipe elements.
 
 See [BatchML-BatchInformation.md](BatchML-BatchInformation.md) for a specification of the ControlRecipe element type.
 
-![control-recipes-type](BatchML-BatchProductionRecord/types/control-recipes-type.jpg)
+![control-recipes-type](types/control-recipes-type.jpg)
 
-![control-recipe-record](BatchML-BatchProductionRecord/elements/control-recipe-record.jpg)
+![control-recipe-record](elements/control-recipe-record.jpg)
 
 #### DataSets
 
@@ -498,9 +498,9 @@ See [BatchML-BatchInformation.md](BatchML-BatchInformation.md) for a specificati
 
 Container type for DataSet elements. 
 
-![data-sets-type](BatchML-BatchProductionRecord/types/data-sets-type.jpg)
+![data-sets-type](types/data-sets-type.jpg)
 
-![data-set](BatchML-BatchProductionRecord/elements/data-set.jpg)
+![data-set](elements/data-set.jpg)
 
 #### Events
 
@@ -508,7 +508,7 @@ Container type for DataSet elements.
 
 Container type for Event elements. 
 
-![events-type](BatchML-BatchProductionRecord/types/events-type.jpg)
+![events-type](types/events-type.jpg)
 
 #### MasterRecipes
 
@@ -518,9 +518,9 @@ Container type for MasterRecipe elements.
 
 See [BatchML-BatchInformation.md](BatchML-BatchInformation.md) for a specification of the MasterRecipe element type.
 
-![master-recipes-type](BatchML-BatchProductionRecord/types/master-recipes-type.jpg)
+![master-recipes-type](types/master-recipes-type.jpg)
 
-![master-recipe-record](BatchML-BatchProductionRecord/elements/master-recipe-record.jpg)
+![master-recipe-record](elements/master-recipe-record.jpg)
 
 #### PersonnelIdentification
 
@@ -528,7 +528,7 @@ See [BatchML-BatchInformation.md](BatchML-BatchInformation.md) for a specificati
 
 Container type for PersonnelIdentificationManifest elements.
 
-![personnel-identification-type](BatchML-BatchProductionRecord/types/personnel-identification-type.jpg)
+![personnel-identification-type](types/personnel-identification-type.jpg)
 
 #### OperationsDefinitions
 
@@ -538,9 +538,9 @@ Container type for OperationsDefinition elements.
 
 See [B2MML-OperationsDefinition.md](B2MML-OperationsDefinition.md) for a specification of the OperationsDefinition element type.
 
-![operations-definitions-type](BatchML-BatchProductionRecord/types/operations-definitions-type.jpg)
+![operations-definitions-type](types/operations-definitions-type.jpg)
 
-![operations-definitions-record](BatchML-BatchProductionRecord/elements/operations-definitions-record.jpg)
+![operations-definitions-record](elements/operations-definitions-record.jpg)
 
 #### OperationsPerformances
 
@@ -550,9 +550,9 @@ Container type for OperationsPerformance elements.
 
 See [B2MML-OperationsPerformance.md](B2MML-OperationsPerformance.md) for a specification of the OperationsPerformance element type.
 
-![operations-performances-type](BatchML-BatchProductionRecord/types/operations-performances-type.jpg)
+![operations-performances-type](types/operations-performances-type.jpg)
 
-![operations-performance-record](BatchML-BatchProductionRecord/elements/operations-performance-record.jpg)
+![operations-performance-record](elements/operations-performance-record.jpg)
 
 #### OperationsSchedules
 
@@ -562,9 +562,9 @@ Container type for OperationsSchedule elements.
 
 See [B2MML-OperationsSchedule.md](B2MML-OperationsSchedule.md) for a specification of the OperationsSchedule element type.
 
-![operations-schedules-type](BatchML-BatchProductionRecord/types/operations-schedules-type.jpg)
+![operations-schedules-type](types/operations-schedules-type.jpg)
 
-![operations-schedule-record](BatchML-BatchProductionRecord/elements/operations-schedule-record.jpg)
+![operations-schedule-record](elements/operations-schedule-record.jpg)
 
 #### ProductDefinitions
 
@@ -574,9 +574,9 @@ Container type for ProductDefinition elements.
 
 See [B2MML-ProductDefinition.md](B2MML-ProductDefinition.md) for a specification of the ProductDefinition element type.
 
-![production-definitions-type](BatchML-BatchProductionRecord/types/production-definitions-type.jpg)
+![production-definitions-type](types/production-definitions-type.jpg)
 
-![production-definition-record](BatchML-BatchProductionRecord/elements/production-definition-record.jpg)
+![production-definition-record](elements/production-definition-record.jpg)
 
 #### ProductionPerformances
 
@@ -586,9 +586,9 @@ Container type for ProductionPerformance elements.
 
 See [B2MML-ProductionPerformance.md](B2MML-ProductionPerformance.md) for a specification of the ProductionPerformance element type.
 
-![production-performances-type](BatchML-BatchProductionRecord/types/production-performances-type.jpg)
+![production-performances-type](types/production-performances-type.jpg)
 
-![production-performance-record](BatchML-BatchProductionRecord/elements/production-performance-record.jpg)
+![production-performance-record](elements/production-performance-record.jpg)
 
 #### ProductionSchedules
 
@@ -598,9 +598,9 @@ Container type for ProductionSchedule elements.
 
 See [B2MML-ProductionSchedule](B2MML-ProductionSchedule.md) for a specification of the ProductionSchedule element type.
 
-![production-schedules-type](BatchML-BatchProductionRecord/types/production-schedules-type.jpg)
+![production-schedules-type](types/production-schedules-type.jpg)
 
-![production-schedule-record](BatchML-BatchProductionRecord/elements/production-schedule-record.jpg)
+![production-schedule-record](elements/production-schedule-record.jpg)
 
 #### RecipeElements
 
@@ -610,9 +610,9 @@ Container type for RecipeElement elements.
 
 See [BatchML-BatchInformation.md](BatchML-BatchInformation.md) for a specification of the RecipeElement element type.
 
-![recipe-elements-type](BatchML-BatchProductionRecord/types/recipe-elements-type.jpg)
+![recipe-elements-type](types/recipe-elements-type.jpg)
 
-![recipe-element-record](BatchML-BatchProductionRecord/elements/recipe-element-record.jpg)
+![recipe-element-record](elements/recipe-element-record.jpg)
 
 #### ResourceQualifications
 
@@ -620,7 +620,7 @@ See [BatchML-BatchInformation.md](BatchML-BatchInformation.md) for a specificati
 
 Container type for ResourceQualificationManifest elements.
 
-![resource-qualifications-type](BatchML-BatchProductionRecord/types/resource-qualifications-type.jpg)
+![resource-qualifications-type](types/resource-qualifications-type.jpg)
 
 #### Samples
 
@@ -628,7 +628,7 @@ Container type for ResourceQualificationManifest elements.
 
 Container type for Sample elements.
 
-![samples-type](BatchML-BatchProductionRecord/types/samples-type.jpg)
+![samples-type](types/samples-type.jpg)
 
 #### BatchProductionRecord
 
@@ -642,9 +642,9 @@ Contained BPR.
 
 Container type for Work Master elements
 
-![work-masters-type](BatchML-BatchProductionRecord/types/work-masters-type.jpg)
+![work-masters-type](types/work-masters-type.jpg)
 
-![work-master-record](BatchML-BatchProductionRecord/elements/work-master-record.jpg)
+![work-master-record](elements/work-master-record.jpg)
 
 #### WorkDirective
 
@@ -652,9 +652,9 @@ Container type for Work Master elements
 
 Container type for Work Directive elements
 
-![work-directives-type](BatchML-BatchProductionRecord/types/work-directives-type.jpg)
+![work-directives-type](types/work-directives-type.jpg)
 
-![work-directive-record](BatchML-BatchProductionRecord/elements/work-directive-record.jpg)
+![work-directive-record](elements/work-directive-record.jpg)
 
 #### WorkSchedule
 
@@ -662,9 +662,9 @@ Container type for Work Directive elements
 
 Container type for Work Schedule elements
 
-![work-schedules-type](BatchML-BatchProductionRecord/types/work-schedules-type.jpg)
+![work-schedules-type](types/work-schedules-type.jpg)
 
-![work-schedule-record](BatchML-BatchProductionRecord/elements/work-schedule-record.jpg)
+![work-schedule-record](elements/work-schedule-record.jpg)
 
 #### WorkPerformance
 
@@ -672,9 +672,9 @@ Container type for Work Schedule elements
 
 Container type for Work Performance elements
 
-![work-performances-type](BatchML-BatchProductionRecord/types/work-performances-type.jpg)
+![work-performances-type](types/work-performances-type.jpg)
 
-![work-performance-record](BatchML-BatchProductionRecord/elements/work-performance-record.jpg)
+![work-performance-record](elements/work-performance-record.jpg)
 
 ### Data Elements
 
@@ -684,7 +684,7 @@ Container type for Work Performance elements
 
 Defines additional alarm data for an event that is an alarm event.
 
-![alarm-data-type](BatchML-BatchProductionRecord/types/alarm-data-type.jpg)
+![alarm-data-type](types/alarm-data-type.jpg)
 
 ##### AlarmEvent
 
@@ -716,7 +716,7 @@ Defines the importance of the event.  Standard identifiers are not defined.  Exa
 
 A specification of a change to a BPR element.
 
-![change](BatchML-BatchProductionRecord/elements/change.jpg)
+![change](elements/change.jpg)
 
 Each Change element contains:
 
@@ -744,7 +744,7 @@ A text comment with the reason for the change.
 
 A comment related to a BPR element.
 
-![comment](BatchML-BatchProductionRecord/elements/comment.jpg)
+![comment](elements/comment.jpg)
 
 Each Comment element contains:
 
@@ -772,7 +772,7 @@ Defines the person associated with the comment.
 
 A data set defines arrays of related data values that can be used to represent time series or correlated data values.
 
-![data-set](BatchML-BatchProductionRecord/elements/data-set.jpg)
+![data-set](elements/data-set.jpg)
 
 Each DataSet element contains:
 
@@ -818,7 +818,7 @@ Defines the attributes of the time specification of the data.
 
 Defines the value for a data element in a data set.
 
-![data-value-type](BatchML-BatchProductionRecord/types/data-value-type.jpg)
+![data-value-type](types/data-value-type.jpg)
 
 ##### TagIndex
 
@@ -848,7 +848,7 @@ Defines a data set in a single delimited string element. The string contains a s
 
 Note: This data representation is not directly defined in ANSI/ISA 88.04, but is provided to have a more compact form of data representation. 
 
-![delimited-data-block-type](BatchML-BatchProductionRecord/types/delimited-data-block-type.jpg)
+![delimited-data-block-type](types/delimited-data-block-type.jpg)
 
 ##### TagDelimiter
 
@@ -885,7 +885,7 @@ Describes an event.
 
 The event contains an EventType, EventSubType,,and value. The associated meaning of the event type, subtype, value, and previous value are specified in ANSI/ISA 88.04 and IEC 61512-4. 
 
-![event](BatchML-BatchProductionRecord/elements/event.jpg)
+![event](elements/event.jpg)
 
 Other elements include:
 
@@ -1013,7 +1013,7 @@ If “Other” then the type is an application specific extension and the value 
 
 Defines a set of ordered data values.  
 
-![ordered-data-type](BatchML-BatchProductionRecord/types/ordered-data-type.jpg)
+![ordered-data-type](types/ordered-data-type.jpg)
 
 ##### OrderIndex
 
@@ -1039,7 +1039,7 @@ Defines the value of the data,
 
 Defines the identification of a person associated with a BPR element.
 
-![personnel-identification-manifest-type](BatchML-BatchProductionRecord/types/personnel-identification-manifest-type.jpg)
+![personnel-identification-manifest-type](types/personnel-identification-manifest-type.jpg)
 
 ##### RecordReference
 
@@ -1071,7 +1071,7 @@ Defines the reason for the signature.
 
 Defines the identification of a resource associated with a BPR element.
 
-![resource-qualifications-manifest-type](BatchML-BatchProductionRecord/types/resource-qualifications-manifest-type.jpg)
+![resource-qualifications-manifest-type](types/resource-qualifications-manifest-type.jpg)
 
 ##### RecordReference
 
@@ -1111,7 +1111,7 @@ Defines the date and time the qualification expired.
 
 Defines that a material was sampled and/or tested and results of the test.
 
-![sample-type](BatchML-BatchProductionRecord/types/sample-type.jpg)
+![sample-type](types/sample-type.jpg)
 
 ##### SampleSourceID
 
@@ -1185,7 +1185,7 @@ Defines the tests on the sample.
 
 Defines information on a test of a sample.
 
-![sample-test-type](BatchML-BatchProductionRecord/types/sample-test-type.jpg)
+![sample-test-type](types/sample-test-type.jpg)
 
 ##### TestCode
 
@@ -1211,7 +1211,7 @@ Example: Bio Burden
 
 Defines the result from a sample test.
 
-![sample-test-result-type](BatchML-BatchProductionRecord/types/sample-test-result-type.jpg)
+![sample-test-result-type](types/sample-test-result-type.jpg)
 
 ##### TestDisposition
 
@@ -1267,7 +1267,7 @@ Defines a unique identification of a data source.
 
 It contains the information to identify a single data source (called a tag) and any data required to interpret the data values, such as data compression information required to use the data.
 
-![tag-specification-type](BatchML-BatchProductionRecord/types/tag-specification-type.jpg)
+![tag-specification-type](types/tag-specification-type.jpg)
 
 ##### TagIndex
 
@@ -1357,7 +1357,7 @@ Example: Actual/Raw, Interpolated, Best Fit.
 
 Defines the attributes of the time specification of the data.
 
-![time-specification-type](BatchML-BatchProductionRecord/types/time-specification-type.jpg)
+![time-specification-type](types/time-specification-type.jpg)
 
 ##### Relative
 
@@ -1377,4 +1377,4 @@ If the time is relative, then the offset defines the absolute time that may be a
 
 Defines user defined attributes and values for events. 
 
-![user-attribute](BatchML-BatchProductionRecord/elements/user-attribute.jpg)
+![user-attribute](elements/user-attribute.jpg)
