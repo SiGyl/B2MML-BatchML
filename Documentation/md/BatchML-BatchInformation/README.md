@@ -254,13 +254,13 @@ The object model above is represented in the XML schema through the following st
 
 Recipe library elements are defined as recipe building blocks.  Recipe elements are used to represent the building blocks and contain most of the parts of a recipe. The recipe element may describe any level of the procedural hierarchy (unit procedure, operation, and phase).
 
-[Recipe Building Block Object Model](models/recipe-building-blocks-model.jpg)
+![Recipe Building Block Object Model](models/recipe-building-blocks-model.jpg)
 
 #### RecipeBuildingBlock Element
 
 The object model above is represented in the XML schema through the following structure. 
 
-[Recipe Building Block element](elements/recipe-building-block-element.jpg)
+![Recipe Building Block element](elements/recipe-building-block-element.jpg)
 
 ### Recipe Header
 
@@ -272,7 +272,7 @@ Recipe header information is described in Header elements.  The header has infor
 
 Recipe header information is represented in the XML schema through the following structure. 
 
-[header type](types/headewr-type.jpg)
+![header type](types/headewr-type.jpg)
 
 ### Recipe Formula
 
@@ -290,9 +290,9 @@ A recipe’s formula information is described in a list of Formula elements.  Pr
 
 Formula information is represented in the XML schema through the following structure.  Note the use of *BatchParameterType* for a Parameter. 
 
-[formula types](types/formula-type.jpg)
+![formula types](types/formula-type.jpg)
 
-[parameter element](elements/parameter-element.jpg)
+![parameter element](elements/parameter-element.jpg)
 
 ### Recipe Element
 
@@ -305,21 +305,21 @@ A RecipeElement  contains a header, formula (described in parameters), equipment
 The object model above is represented in the XML schema through the following structure. 
 
 
-[recipe element element](elements/recipe-element-element.jpg)
+![recipe element element](elements/recipe-element-element.jpg)
 
 ### Recipe Procedural Hierarchy
 
 The use of the schemas for exchange information is based on the concept of nested procedural elements that make up a recipe, as illustrated in the figure below.
 
-[nesting recipe elements](etc/nesting-recipe-elements.jpg)
+![nesting recipe elements](etc/nesting-recipe-elements.jpg)
 
 The use model allows for the alternate representations of a recipe procedure.  The following diagram illustrates the nesting of standard recipe procedural elements.  These can also be further expanded using application specific recipe procedural levels, such as Macro Phases or Sub Operations.  
 
-[alternative-procedural-hierarchies](etc/alternative-procedural-hierarchies.jpg)
+![alternative-procedural-hierarchies](etc/alternative-procedural-hierarchies.jpg)
 
 The following diagram illustrates the use of RecipeElement, ProcedureLogic, and Step to describe the possible hierarchies.  This shows an example where there is a class procedural element “Heat” that is used twice in a master recipe’s procedure.  The steps describe the order and sequence of the use of Heat, the RecipeElement describe the parameters of use, and the RecipeBuildingBlock describes the class. 
 
-[Relationship of Steps to RecipeElement to Class Definitions](etc/relationship-of-steps-to-recipeElement-to-class-definitions.jpg)
+![Relationship of Steps to RecipeElement to Class Definitions](etc/relationship-of-steps-to-recipeElement-to-class-definitions.jpg)
 
 The use of the class definition through RecipeBuildingBlock is optional, a recipe may be self contained and reference no classes or library elements.   In those cases the RecipeElement within the MasterRecipe (or ControlRecipe) contains the complete description.
 
@@ -327,31 +327,31 @@ The use of the class definition through RecipeBuildingBlock is optional, a recip
 
 ProcedureLogic contains a definition of the procedural logic in a recipe procedure, as defined in ANSI/ISA-88.00.02. Procedure logic is made up of steps, transitions, and links between steps and transitions, steps and steps, and transitions and transitions.  
 
-[procedure logic element](elements/procedure-logic-element.jpg)
+![procedure logic element](elements/procedure-logic-element.jpg)
 
 ### Step
 
 A Step element in a ProcedureLogic element describes a single instance of use of a recipe element (unit operation, operation, or phase).  Steps may also correspond to non procedural elements used in procedure diagrams, such as the Begin and End symbols, and the Allocation and Deallocation symbols.
 
-[step element](elements/step-element.jpg)
+![step element](elements/step-element.jpg)
 
 ### Transition
 
 A transition element in a ProcedureLogic element describes a single instance of a transition in the logic.
 
-[transition element](elements/transition-element.jpg)
+![transition element](elements/transition-element.jpg)
 
 ### Link
 
 A Link element in a ProcedureLogic element describes an execution sequence link between the steps and transitions.  The FromID and ToID elements may be a StepID or TransitionID, allowing step to transition, transition to step, step to step, and transition to transition links.  The ordering of the links, as required for proper procedure execution is defined in the EvaluationOrder element.  
 
-[link element](elements/link-element.jpg)
+![link element](elements/link-element.jpg)
 
 ## Equipment Model
 
 The data represented in these schemas is derived from the UML model below.  This model is derived from the object models in the ANSI/ISA 88.00.02 standard.  The information model in the model below is hierarchical and is defined as equipment elements and the contained elements.  Enumeration set information is defined separately, as identified by the dotted collection in the figure below.  
 
-[equipment model](models/equipment-model.jpg)
+![equipment model](models/equipment-model.jpg)
 
 ### EquipmentElement
 
@@ -361,7 +361,7 @@ Equipment and equipment classes are represented in EquipmentElement.  Equipment 
 
 The object model above is represented in the XML schema through the following structure. 
 
-[equipment element element](elements/equipment-element-element.jpg)
+![equipment element element](elements/equipment-element-element.jpg)
 
 An EquipmentElement may contain the definition of classes and instances.  Each enclosed EquipmentElement defines its type (Class or Instance) in the EquipmentElement Type.  
 
@@ -371,7 +371,7 @@ An EquipmentElement also contains the ISA-88 equipment level (EquipmentElementLe
 
 The equipment schema allows the definition of the ANSI/ISA-88.00.01 model for the equipment hierarchy, as shown in the figure below.   The terminology used in naming the equipment levels follows the ISA standard.
 
-[equipment hierarchy](etc/equipment-hierarchy.jpg)
+![equipment hierarchy](etc/equipment-hierarchy.jpg)
 
 ### Equipment Classes
 
@@ -383,7 +383,7 @@ There are multiple methods for defining equipment classing and equipment procedu
 
 In the classical inheritance an element may be defined as being a member of a class by containing the class name in the “ClassInstanceAssociation” element.  For example a ProcessCell ReactorCell4 may contain a unit class called ReactorType (EquipmentClassID).  A ReactorUnit15 may be defined as being of a member of a ReactorType unit class.  If the ReactorType unit class defines properties (Property), such as “Maximum Temperature”, then ReactorUnit15 includes the property definition. If the ReactorType definition defines several phases (EquipmentProceduralElement), such as “Charge”, “Heat”, and “Discharge”, then “ReactorUnit15 also contains the definitions of the phases. 
 
-[equipment inheritance classical](etc/equipment-inheritance-classical.jpg)
+![equipment inheritance classical](etc/equipment-inheritance-classical.jpg)
 
 ````xml
 <EquipmentElement>
@@ -446,7 +446,7 @@ In the classical inheritance an element may be defined as being a member of a cl
 
 In the implements type of inheritance an encapsulating object, such as a process cell, may contain the definition of several phase classes (EquipmentProceduralElementClass).  Each unit within the process cell may then have an implementation instance of one or more phases.  For example, a process cell, MainMixingCell, may define phase classes of “Add”, “Mix”, “Heat”, “Chill”, and “Discharge”.  All units may implement the “Add”, “Mix”, and “Discharge” phases, but the “Heat” and “Chill” phases may not be implemented by all units. 
 
-[equipment inheritance implements](etc/equipment-inheritance-implements.jpg)
+![equipment inheritance implements](etc/equipment-inheritance-implements.jpg)
 
 ````xml
 <EquipmentElement>
@@ -485,13 +485,13 @@ In the implements type of inheritance an encapsulating object, such as a process
 
 The data represented in these schemas is derived from the UML model below.  This model is derived from the object models in the ANSI/ISA 88.00.02 standard Clause 4, but it does not directly implement the full definitions of the batch schedule elements defined in Part 2, Clause 5.    
 
-[batch list model](models/batch-list-model.jpg)
+![batch list model](models/batch-list-model.jpg)
 
 ### BatchList
 
 The main structuring element of the schema definition is BatchList.   It contains zero or more batch list entries. 
 
-[batch list element](elements/batch-list-element.jpg)
+![batch list element](elements/batch-list-element.jpg)
 
 A batch list contains the list of batches for a process cell.  This may be a list of batches to be added to the cell, the list of batches currently scheduled in the cell, or the list of batches currently scheduled and completed in the cell.  Encapsulating transactions, not defined in this standard, may be defined to use this structure to add, delete, or change the batches in a process cell batch list.
 
@@ -502,7 +502,7 @@ A batch list entry may contain multiple batch entries.  This allows the structur
 
 A batch list entry contains information about the starting conditions, scheduled times, actual times, scheduled batch size, actual batch size, and equipment binding.   Some of the elements may not have a meaning for batch list entries which are not batch entries.  For example, a batch size may not be appropriate for an entry representing a unit procedure or operation. 
 
-[batch list entry element](elements/batch-list-entry-element.jpg)
+![batch list entry element](elements/batch-list-entry-element.jpg)
 
 ## Enumerations
 
@@ -513,9 +513,9 @@ XML enumerations are used for all standard enumeration values, such as recipe pr
 
 There is one EnumerationSet element for each enumeration set.  Within the set there is one Enumeration element for each enumeration value. 
 
-[enumeration set element](elements/enumeration-set-element.jpg)
+![enumeration set element](elements/enumeration-set-element.jpg)
 
-[enumeration element](elements/enumeration-element.jpg)
+![enumeration element](elements/enumeration-element.jpg)
 
 ## Element Definitions
 
