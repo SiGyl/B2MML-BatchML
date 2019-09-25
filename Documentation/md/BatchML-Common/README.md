@@ -1186,13 +1186,13 @@ A string used by the ProductionPerformance, ProductionResponse, SegmentResponse,
 
 The value must be one of the following standard enumerations: 
 
-    - Ready - The activities were ready to run, but is not yet running.
-    - Running - The activities were running. 
-    - Completed - The activities were completed.
-    - Aborted - The activities were aborted.
-    - Holding - The activities were holding.
-    - Paused - The activities were paused.
-    - Other - the type is an application specific extension and the value is defined in the attribute **OtherValue**.
+- Ready - The activities were ready to run, but is not yet running.
+- Running - The activities were running. 
+- Completed - The activities were completed.
+- Aborted - The activities were aborted.
+- Holding - The activities were holding.
+- Paused - The activities were paused.
+- Other - the type is an application specific extension and the value is defined in the attribute **OtherValue**.
 
 ### ResultType
 
