@@ -272,7 +272,7 @@ Recipe header information is described in Header elements.  The header has infor
 
 Recipe header information is represented in the XML schema through the following structure. 
 
-![header type](types/headewr-type.jpg)
+![header type](types/header-type.jpg)
 
 ### Recipe Formula
 
