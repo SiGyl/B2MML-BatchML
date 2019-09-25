@@ -1768,7 +1768,6 @@ Element       | Differences
 **Show**      | The OAGiS 9.6 ”Show” specification includes a set of optional attributes (**recordSetStartNumber**, **recordSetCount**, **recordSetTotal**, **recordSetCompleteIndicator**, and **recordSetReferenceId**) that are used by the responding task to indicate the status of the request and to define the scope of the information returned. These attributes are not defined for B2MML.  The Show message should return all elements of the Get request. 
 **Get**       | The OAGiS “Get” specification includes a set of optional attributes (**uniqueIndicator**, **maxItems**, **recordSetSaveIndicator**, **recordSetStartNumber**, and **recordSetReferenceId**) that are used by the requesting application to control how many elements are returned. These attributes are not defined for B2MML.  The Show message should return all elements of the Get request. 
 **ActionExpression** <br/>**ResponseExpression** | In B2MML this contains a required attribute that contains an actionCode. 
-**ConfirmBOD**| B2MML contains only the Original Application Area, a free form text group, and user data.
-OAGiS 9.6 also contains BOD Failure Message, BOD Success Message, and Partial BOD Failure Message areas.  
+**ConfirmBOD**| B2MML contains only the Original Application Area, a free form text group, and user data. OAGiS 9.6 also contains BOD Failure Message, BOD Success Message, and Partial BOD Failure Message areas.  
 **DateTimeType**|B2MML has the *DateTimeType* derived from the *xsd:dateTime* type. OAGiS 9.6 has the *DateTimeType* derived from *xsd:string.*  B2MML is more restrictive than OAGiS, but OAGiS recommends the use of ISO 8601 CE format. 
 
