@@ -1450,7 +1450,7 @@ The ACKNOWLEDGE message contains a required **status** attribute in the **Acknow
 
 The CHANGE verb contains an optional **responseCode** attribute, as shown below in the Change element. 
 
-![chnage equipment class element](elements/chnage-equipment-class-element.jpg)
+![change equipment class element](elements/change-equipment-class-element.jpg)
 
 For consistency with OAGiS verb definitions, the CHANGE verb also contains an ActionCode element with ActionExpression elements.  This element is not used in the B2MML transactions. 
 
@@ -1597,7 +1597,7 @@ Defines the description for a response.
 
 **UserArea**: User defined ##any type. 
 
-![trans-chnage-status-type.jpg](types/trans-chnage-status-type.jpg)
+![trans-change-status-type.jpg](types/trans-change-status-type.jpg)
 
 #### *TransChangeType*
 
