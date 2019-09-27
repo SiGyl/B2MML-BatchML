@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema 
+        xmlns:xsd = "http://www.w3.org/2001/XMLSchema" 
+        xmlns="http://www.w3.org/2001/XMLSchema" 
+        targetNamespace="http://www.wbf.org/xml/RABatchRecordExtensions"    
+        xmlns:tns="http://www.wbf.org/xml/RABatchRecordExtensions" 
+        elementFormDefault="qualified">
+
+<xsd:annotation> 
+   <xsd:documentation> 
+  
+      Revision History
+
+        Ver     Date            Person          Note
+        ---     ----            ------          ----
+        v01     27 Apr 2010     S. Braun        initial version       
+   </xsd:documentation>
+</xsd:annotation>
+
+<!-- 
+                        Purpose of Common Extensions Schema
+
+This Common Extensions schema is intended to be edited by users as required to extend B2MML 
+to meet project and product requirements. 
+
+A place holder has been added prior to each Any element in the B2MML Common schema.  The place holder 
+is a substitution group that points to a group in this schema.  Any elements placed in a group
+in this schema can be used in B2MML XML documents using "Extended" as the namespace prefix.  
+
+The elements added to the groups may reference types defined earlier in this schema or in
+other schemas.  Additional schemas may be used to permit element definitions from different 
+vendors to be used on one project with minimal changes to the B2MML extensions schema,  
+and increasing clarity by assigning a vendor specific namespace prefix to each group 
+of elements when used in an XML document.
+
+-->
+
+
+
+<!-- B2MML extension groups for RA.* schema-->
+
+        <xsd:group name = "BatchProductionRecord">
+                <xsd:sequence>
+                        <!-- add extended elements here -->
+                </xsd:sequence>
+        </xsd:group>
+        
+        <xsd:group name = "ExecutedControlRecipe">
+                <xsd:sequence>
+                        <!-- add extended elements here -->
+                </xsd:sequence>
+        </xsd:group>
+        
+        <xsd:group name = "RuntimeRecipeElement">
+                <xsd:sequence>
+                        <!-- add extended elements here -->
+                </xsd:sequence>
+        </xsd:group>
+
+        <xsd:group name = "Comment">
+                <xsd:sequence>
+                        <!-- add extended elements here -->
+                </xsd:sequence>
+        </xsd:group>
+
+        <xsd:group name = "Event">
+                <xsd:sequence>
+                        <!-- add extended elements here -->
+                </xsd:sequence>
+        </xsd:group>
+
+        <xsd:group name = "PersonnelIdentification">
+                <xsd:sequence>
+                        <!-- add extended elements here -->
+                </xsd:sequence>
+        </xsd:group>
+
+</schema>

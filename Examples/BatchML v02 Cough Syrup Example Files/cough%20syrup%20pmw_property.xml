@@ -1,0 +1,2028 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<prop:properties version="1.0" xmlns:prop="http://xmlns.xfy.com/properties">
+	<prop:owner>com.xfy.diagram.editlet.DiagramPropertyManager</prop:owner>
+	<prop:lastModified>2008-03-29T19:15:24-0400</prop:lastModified>
+	<prop:version>1.3.0.0</prop:version>
+	<prop:group name="1206464044218-C1b0">
+		<prop:property name="to-x" value="229"/>
+		<prop:property name="to-y" value="193.9337615966797"/>
+		<prop:property name="from-x" value="-138"/>
+		<prop:property name="type" value="elbow"/>
+		<prop:property name="to-position" value="top"/>
+		<prop:property name="from-position" value="bottom"/>
+		<prop:property name="from-y" value="2.4337615966796875"/>
+	</prop:group>
+	<prop:group name="1204071184437-C81">
+		<prop:property name="height" value="10"/>
+		<prop:property name="width" value="25"/>
+		<prop:property name="y" value="405.75"/>
+		<prop:property name="x" value="41.5"/>
+	</prop:group>
+	<prop:group name="1204071184250-C56">
+		<prop:property name="height" value="61"/>
+		<prop:property name="width" value="100"/>
+		<prop:property name="y" value="311.5"/>
+		<prop:property name="x" value="209.25"/>
+	</prop:group>
+	<prop:group name="1206463204625-C13c">
+		<prop:property name="y" value="445.5"/>
+		<prop:property name="x" value="412.52299999999997"/>
+	</prop:group>
+	<prop:group name="1206464044062-C1ad">
+		<prop:property name="to-x" value="558"/>
+		<prop:property name="to-y" value="399.934"/>
+		<prop:property name="from-x" value="-154"/>
+		<prop:property name="type" value="elbow"/>
+		<prop:property name="to-position" value="top"/>
+		<prop:property name="from-position" value="bottom,88.14"/>
+		<prop:property name="from-y" value="13.433761596679688"/>
+	</prop:group>
+	<prop:group name="1204071184312-C5f">
+		<prop:property name="height" value="15"/>
+		<prop:property name="width" value="697.5"/>
+		<prop:property name="y" value="262.5"/>
+		<prop:property name="x" value="26.5"/>
+	</prop:group>
+	<prop:group name="1206460753359-C2c">
+		<prop:property name="y" value="390.5"/>
+		<prop:property name="x" value="418.5"/>
+	</prop:group>
+	<prop:group name="1206462728515-Ceb">
+		<prop:property name="y" value="448.5"/>
+		<prop:property name="x" value="494"/>
+	</prop:group>
+	<prop:group name="1206464325281-C1da">
+		<prop:property name="y" value="263"/>
+		<prop:property name="x" value="273.477"/>
+	</prop:group>
+	<prop:group name="1206462570656-Cb7">
+		<prop:property name="to-x" value="442.523"/>
+		<prop:property name="to-y" value="425.5"/>
+		<prop:property name="type" value="straight"/>
+		<prop:property name="from-x" value="442.977"/>
+		<prop:property name="from-position" value="bottom"/>
+		<prop:property name="to-position" value="top"/>
+		<prop:property name="from-y" value="399"/>
+	</prop:group>
+	<prop:group name="1206464044421-C1b4">
+		<prop:property name="to-x" value="238"/>
+		<prop:property name="to-y" value="556.9337615966797"/>
+		<prop:property name="from-x" value="238"/>
+		<prop:property name="type" value="elbow"/>
+		<prop:property name="to-position" value="top,13.457"/>
+		<prop:property name="from-position" value="bottom"/>
+		<prop:property name="from-y" value="492.9337615966797"/>
+	</prop:group>
+	<prop:group name="1204071184390-C77">
+		<prop:property name="height" value="61"/>
+		<prop:property name="width" value="100"/>
+		<prop:property name="y" value="323"/>
+		<prop:property name="x" value="131"/>
+	</prop:group>
+	<prop:group name="1204071184390-C78">
+		<prop:property name="height" value="61"/>
+		<prop:property name="width" value="100"/>
+		<prop:property name="y" value="323"/>
+		<prop:property name="x" value="4"/>
+	</prop:group>
+	<prop:group name="1206462777421-C109">
+		<prop:property name="to-x" value="250.454"/>
+		<prop:property name="to-y" value="14"/>
+		<prop:property name="type" value="elbow"/>
+		<prop:property name="from-x" value="250"/>
+		<prop:property name="from-position" value="bottom"/>
+		<prop:property name="to-position" value="top"/>
+		<prop:property name="from-y" value="-29.132000000000005"/>
+	</prop:group>
+	<prop:group name="1204071184390-C75">
+		<prop:property name="height" value="61"/>
+		<prop:property name="width" value="100"/>
+		<prop:property name="y" value="323"/>
+		<prop:property name="x" value="377"/>
+	</prop:group>
+	<prop:group name="1204071184390-C76">
+		<prop:property name="height" value="61"/>
+		<prop:property name="width" value="100"/>
+		<prop:property name="y" value="323"/>
+		<prop:property name="x" value="249"/>
+	</prop:group>
+	<prop:group name="1206460577921-C1c">
+		<prop:property name="y" value="184.5"/>
+		<prop:property name="x" value="52"/>
+	</prop:group>
+	<prop:group name="1206462728234-Ce2">
+		<prop:property name="to-x" value="224"/>
+		<prop:property name="to-y" value="573.5"/>
+		<prop:property name="type" value="elbow"/>
+		<prop:property name="from-x" value="224"/>
+		<prop:property name="from-position" value="bottom"/>
+		<prop:property name="to-position" value="top,13.457"/>
+		<prop:property name="from-y" value="509.5"/>
+	</prop:group>
+	<prop:group name="1206462570578-Cb4">
+		<prop:property name="to-x" value="442.977"/>
+		<prop:property name="to-y" value="270"/>
+		<prop:property name="type" value="straight"/>
+		<prop:property name="from-x" value="442.523"/>
+		<prop:property name="from-position" value="bottom"/>
+		<prop:property name="to-position" value="top"/>
+		<prop:property name="from-y" value="245.5"/>
+	</prop:group>
+	<prop:group name="1206464044578-C1b7">
+		<prop:property name="to-x" value="-153"/>
+		<prop:property name="to-y" value="9.433761596679688"/>
+		<prop:property name="from-x" value="-153"/>
+		<prop:property name="type" value="elbow"/>
+		<prop:property name="to-position" value="top"/>
+		<prop:property name="from-position" value="bottom,13.721"/>
+		<prop:property name="from-y" value="9.433761596679688"/>
+	</prop:group>
+	<prop:group name="1206463204656-C13d">
+		<prop:property name="y" value="290"/>
+		<prop:property name="x" value="450.477"/>
+	</prop:group>
+	<prop:group name="1206462253125-C9c">
+		<prop:property name="y" value="283.5"/>
+		<prop:property name="x" value="372.52299999999997"/>
+	</prop:group>
+	<prop:group name="1206462727875-Cd6">
+		<prop:property name="to-x" value="-168"/>
+		<prop:property name="to-y" value="30"/>
+		<prop:property name="type" value="elbow"/>
+		<prop:property name="from-x" value="-168"/>
+		<prop:property name="from-position" value="left"/>
+		<prop:property name="to-position" value="top"/>
+		<prop:property name="from-y" value="30"/>
+	</prop:group>
+	<prop:group name="1206464661125-C1e9">
+		<prop:property name="type" value="straight"/>
+		<prop:property name="to-position" value="top"/>
+		<prop:property name="from-position" value="bottom"/>
+	</prop:group>
+	<prop:group name="1204071302765-Cab">
+		<prop:property name="to-x" value="331"/>
+		<prop:property name="to-y" value="653"/>
+		<prop:property name="type" value="straight"/>
+		<prop:property name="from-x" value="331"/>
+		<prop:property name="to-position" value="top"/>
+		<prop:property name="from-position" value="bottom"/>
+		<prop:property name="from-y" value="634"/>
+	</prop:group>
+	<prop:group name="1204071184171-C4d">
+		<prop:property name="to-x" value="259.25"/>
+		<prop:property name="to-y" value="430.5"/>
+		<prop:property name="type" value="straight"/>
+		<prop:property name="from-x" value="259.25"/>
+		<prop:property name="to-position" value="top"/>
+		<prop:property name="from-position" value="bottom"/>
+		<prop:property name="from-y" value="411"/>
+	</prop:group>
+	<prop:group name="1204071184171-C4e">
+		<prop:property name="to-x" value="259.25"/>
+		<prop:property name="to-y" value="401"/>
+		<prop:property name="type" value="straight"/>
+		<prop:property name="from-x" value="259.25"/>
+		<prop:property name="to-position" value="top"/>
+		<prop:property name="from-position" value="bottom"/>
+		<prop:property name="from-y" value="372.5"/>
+	</prop:group>
+	<prop:group name="1">
+		<prop:property name="canvas-width" value="828"/>
+		<prop:property name="canvas-height" value="834"/>
+	</prop:group>
+	<prop:group name="1204071327156-Cad">
+		<prop:property name="to-x" value="245"/>
+		<prop:property name="to-y" value="438"/>
+		<prop:property name="type" value="straight"/>
+		<prop:property name="from-x" value="245"/>
+		<prop:property name="to-position" value="top"/>
+		<prop:property name="from-position" value="bottom"/>
+		<prop:property name="from-y" value="425"/>
+	</prop:group>
+	<prop:group name="1206462727906-Cd7">
+		<prop:property name="to-x" value="-168"/>
+		<prop:property name="to-y" value="30"/>
+		<prop:property name="type" value="elbow"/>
+		<prop:property name="from-x" value="-168"/>
+		<prop:property name="from-position" value="left"/>
+		<prop:property name="to-position" value="top"/>
+		<prop:property name="from-y" value="30"/>
+	</prop:group>
+	<prop:group name="1206462777937-C11a">
+		<prop:property name="y" value="428"/>
+		<prop:property name="x" value="81.5"/>
+	</prop:group>
+	<prop:group name="1206464325218-C1d9">
+		<prop:property name="y" value="418.5"/>
+		<prop:property name="x" value="235.52299999999997"/>
+	</prop:group>
+	<prop:group name="1206462250468-C99">
+		<prop:property name="y" value="164.5"/>
+		<prop:property name="x" value="372.523"/>
+	</prop:group>
+	<prop:group name="1206463204515-C139">
+		<prop:property name="points" value="462.523 571.13245 487.523 614.4338 437.523 614.4338"/>
+	</prop:group>
+	<prop:group name="1206463204734-C13f">
+		<prop:property name="y" value="532"/>
+		<prop:property name="x" value="450.477"/>
+	</prop:group>
+	<prop:group name="1206462728078-Cdd">
+		<prop:property name="to-x" value="215.454"/>
+		<prop:property name="to-y" value="174"/>
+		<prop:property name="type" value="elbow"/>
+		<prop:property name="from-x" value="215"/>
+		<prop:property name="from-position" value="bottom"/>
+		<prop:property name="to-position" value="top"/>
+		<prop:property name="from-y" value="130.868"/>
+	</prop:group>
+	<prop:group name="1206462728109-Cde">
+		<prop:property name="to-x" value="215.454"/>
+		<prop:property name="to-y" value="303"/>
+		<prop:property name="type" value="elbow"/>
+		<prop:property name="from-x" value="215"/>
+		<prop:property name="from-position" value="bottom"/>
+		<prop:property name="to-position" value="top"/>
+		<prop:property name="from-y" value="271.5"/>
+	</prop:group>
+	<prop:group name="1204071184406-C79">
+		<prop:property name="points" value="369.0 548.1325 394.0 591.4338 344.0 591.4338"/>
+	</prop:group>
+	<prop:group name="1206464669437-C1ec">
+		<prop:property name="type" value="straight"/>
+		<prop:property name="to-position" value="top"/>
+		<prop:property name="from-position" value="bottom"/>
+	</prop:group>
+	<prop:group name="1206463469656-C18f">
+		<prop:property name="y" value="184.5"/>
+		<prop:property name="x" value="392.523"/>
+	</prop:group>
+	<prop:group name="1206464044109-C1ae">
+		<prop:property name="to-x" value="-154"/>
+		<prop:property name="to-y" value="21.433761596679688"/>
+		<prop:property name="from-x" value="-154"/>
+		<prop:property name="type" value="elbow"/>
+		<prop:property name="to-position" value="top"/>
+		<prop:property name="from-position" value="bottom"/>
+		<prop:property name="from-y" value="21.433761596679688"/>
+	</prop:group>
+	<prop:group name="1206462777687-C112">
+		<prop:property name="points" value="226.0 31.566223 276.0 31.566223 251.0 74.86752"/>
+	</prop:group>
+	<prop:group name="1206460571531-C1a">
+		<prop:property name="points" value="110.0 672.1325 135.0 715.4338 85.0 715.4338"/>
+	</prop:group>
+	<prop:group name="1206464325125-C1d7">
+		<prop:property name="y" value="177.5"/>
+		<prop:property name="x" value="235.52300000000002"/>
+	</prop:group>
+	<prop:group name="1204071184281-C5a">
+		<prop:property name="height" value="10"/>
+		<prop:property name="width" value="25"/>
+		<prop:property name="y" value="281"/>
+		<prop:property name="x" value="246.75"/>
+	</prop:group>
+	<prop:group name="1206462727812-Cd4">
+		<prop:property name="height" value="15"/>
+		<prop:property name="width" value="430"/>
+		<prop:property name="y" value="353.5"/>
+		<prop:property name="x" value="165"/>
+	</prop:group>
+	<prop:group name="1204071184281-C5b">
+		<prop:property name="height" value="10"/>
+		<prop:property name="width" value="25"/>
+		<prop:property name="y" value="397"/>
+		<prop:property name="x" value="246.75"/>
+	</prop:group>
+	<prop:group name="1206462570718-Cb9">
+		<prop:property name="to-x" value="442.523"/>
+		<prop:property name="to-y" value="551.132"/>
+		<prop:property name="type" value="straight"/>
+		<prop:property name="from-x" value="442.977"/>
+		<prop:property name="from-position" value="bottom"/>
+		<prop:property name="to-position" value="top"/>
+		<prop:property name="from-y" value="522"/>
+	</prop:group>
+	<prop:group name="1206463204687-C13e">
+		<prop:property name="y" value="409"/>
+		<prop:property name="x" value="450.477"/>
+	</prop:group>
+	<prop:group name="1206464663906-C1ea">
+		<prop:property name="type" value="straight"/>
+		<prop:property name="to-position" value="top"/>
+		<prop:property name="from-position" value="bottom"/>
+	</prop:group>
+	<prop:group name="1204075403234-Cc0">
+		<prop:property name="to-x" value="357"/>
+		<prop:property name="to-y" value="190.5"/>
+		<prop:property name="type" value="straight"/>
+		<prop:property name="from-x" value="357"/>
+		<prop:property name="to-position" value="top"/>
+		<prop:property name="from-position" value="bottom"/>
+		<prop:property name="from-y" value="167"/>
+	</prop:group>
+	<prop:group name="1204071184312-C63">
+		<prop:property name="to-x" value="548"/>
+		<prop:property name="to-y" value="324"/>
+		<prop:property name="from-x" value="547.5"/>
+		<prop:property name="type" value="straight"/>
+		<prop:property name="from-position" value="bottom,74.767"/>
+		<prop:property name="to-position" value="top"/>
+		<prop:property name="from-y" value="277.5"/>
+	</prop:group>
+	<prop:group name="1206463469812-C193">
+		<prop:property name="y" value="389"/>
+		<prop:property name="x" value="430.477"/>
+	</prop:group>
+	<prop:group name="1204071184312-C62">
+		<prop:property name="to-x" value="427"/>
+		<prop:property name="to-y" value="323"/>
+		<prop:property name="from-x" value="427.5"/>
+		<prop:property name="type" value="straight"/>
+		<prop:property name="from-position" value="bottom,57.419"/>
+		<prop:property name="to-position" value="top"/>
+		<prop:property name="from-y" value="277.5"/>
+	</prop:group>
+	<prop:group name="1204071184312-C61">
+		<prop:property name="to-x" value="299"/>
+		<prop:property name="to-y" value="323"/>
+		<prop:property name="from-x" value="299.0"/>
+		<prop:property name="type" value="straight"/>
+		<prop:property name="from-position" value="bottom,39.068"/>
+		<prop:property name="to-position" value="top"/>
+		<prop:property name="from-y" value="277.5"/>
+	</prop:group>
+	<prop:group name="1206462777296-C105">
+		<prop:property name="to-x" value="-297"/>
+		<prop:property name="to-y" value="-194"/>
+		<prop:property name="type" value="elbow"/>
+		<prop:property name="from-x" value="-297"/>
+		<prop:property name="from-position" value="bottom,88.14"/>
+		<prop:property name="to-position" value="top"/>
+		<prop:property name="from-y" value="-194"/>
+	</prop:group>
+	<prop:group name="1204071184312-C60">
+		<prop:property name="to-x" value="181"/>
+		<prop:property name="to-y" value="323"/>
+		<prop:property name="from-x" value="181.0"/>
+		<prop:property name="type" value="straight"/>
+		<prop:property name="from-position" value="bottom,22.151"/>
+		<prop:property name="to-position" value="top"/>
+		<prop:property name="from-y" value="277.5"/>
+	</prop:group>
+	<prop:group name="1206462728390-Ce7">
+		<prop:property name="points" value="223.0 698.1325 248.0 741.4338 198.0 741.4338"/>
+	</prop:group>
+	<prop:group name="1206462777843-C117">
+		<prop:property name="y" value="224.5"/>
+		<prop:property name="x" value="365"/>
+	</prop:group>
+	<prop:group name="1206462570906-Cc0">
+		<prop:property name="y" value="389"/>
+		<prop:property name="x" value="430.477"/>
+	</prop:group>
+	<prop:group name="1206464044515-C1b6">
+		<prop:property name="to-x" value="558"/>
+		<prop:property name="to-y" value="556.9337615966797"/>
+		<prop:property name="from-x" value="558"/>
+		<prop:property name="type" value="elbow"/>
+		<prop:property name="to-position" value="top,87.703"/>
+		<prop:property name="from-position" value="bottom"/>
+		<prop:property name="from-y" value="492.9337615966797"/>
+	</prop:group>
+	<prop:group name="1206462728000-Cda">
+		<prop:property name="to-x" value="-168"/>
+		<prop:property name="to-y" value="38"/>
+		<prop:property name="type" value="elbow"/>
+		<prop:property name="from-x" value="-168"/>
+		<prop:property name="from-position" value="bottom"/>
+		<prop:property name="to-position" value="top"/>
+		<prop:property name="from-y" value="38"/>
+	</prop:group>
+	<prop:group name="1204071184203-C51">
+		<prop:property name="to-x" value="268.75"/>
+		<prop:property name="to-y" value="542.13248"/>
+		<prop:property name="from-x" value="268.75"/>
+		<prop:property name="type" value="straight"/>
+		<prop:property name="from-position" value="bottom"/>
+		<prop:property name="to-position" value="bottom"/>
+		<prop:property name="from-y" value="542.13248"/>
+	</prop:group>
+	<prop:group name="1204071184406-C7c">
+		<prop:property name="height" value="10"/>
+		<prop:property name="width" value="25"/>
+		<prop:property name="y" value="494"/>
+		<prop:property name="x" value="356.5"/>
+	</prop:group>
+	<prop:group name="1206462728281-Ce3">
+		<prop:property name="to-x" value="386"/>
+		<prop:property name="to-y" value="573.5"/>
+		<prop:property name="type" value="elbow"/>
+		<prop:property name="from-x" value="386"/>
+		<prop:property name="from-position" value="bottom"/>
+		<prop:property name="to-position" value="top,51.044"/>
+		<prop:property name="from-y" value="509.5"/>
+	</prop:group>
+	<prop:group name="1206464720734-C1ef">
+		<prop:property name="type" value="straight"/>
+		<prop:property name="to-position" value="top"/>
+		<prop:property name="from-position" value="bottom"/>
+	</prop:group>
+	<prop:group name="1204071208453-C86">
+		<prop:property name="canvas-height" value="1056"/>
+		<prop:property name="canvas-width" value="911.364"/>
+	</prop:group>
+	<prop:group name="1204071184406-C7a">
+		<prop:property name="points" value="349.5 153.56625 399.5 153.56625 374.5 196.86751"/>
+	</prop:group>
+	<prop:group name="1206464714375-C1ed">
+		<prop:property name="y" value="188"/>
+		<prop:property name="x" value="222.5"/>
+	</prop:group>
+	<prop:group name="1204071184406-C7b">
+		<prop:property name="height" value="10"/>
+		<prop:property name="width" value="25"/>
+		<prop:property name="y" value="223"/>
+		<prop:property name="x" value="363"/>
+	</prop:group>
+	<prop:group name="1206460665656-C25">
+		<prop:property name="y" value="422.5"/>
+		<prop:property name="x" value="381"/>
+	</prop:group>
+	<prop:group name="1206464324796-C1d1">
+		<prop:property name="to-x" value="285.977"/>
+		<prop:property name="to-y" value="382"/>
+		<prop:property name="type" value="straight"/>
+		<prop:property name="from-x" value="285.523"/>
+		<prop:property name="from-position" value="bottom"/>
+		<prop:property name="to-position" value="top"/>
+		<prop:property name="from-y" value="357.5"/>
+	</prop:group>
+	<prop:group name="1206462777781-C115">
+		<prop:property name="y" value="224.5"/>
+		<prop:property name="x" value="45"/>
+	</prop:group>
+	<prop:group name="1206462256250-C9f">
+		<prop:property name="y" value="405.5"/>
+		<prop:property name="x" value="372.52299999999997"/>
+	</prop:group>
+	<prop:group name="1204071208625-Ca2">
+		<prop:property name="height" value="10"/>
+		<prop:property name="width" value="25"/>
+		<prop:property name="y" value="438"/>
+		<prop:property name="x" value="232.5"/>
+	</prop:group>
+	<prop:group name="1204071208625-Ca1">
+		<prop:property name="height" value="10"/>
+		<prop:property name="width" value="25"/>
+		<prop:property name="y" value="439"/>
+		<prop:property name="x" value="392.5"/>
+	</prop:group>
+	<prop:group name="1206462777875-C118">
+		<prop:property name="y" value="192.5"/>
+		<prop:property name="x" value="244.5"/>
+	</prop:group>
+	<prop:group name="1206462777812-C116">
+		<prop:property name="y" value="224.5"/>
+		<prop:property name="x" value="207"/>
+	</prop:group>
+	<prop:group name="1206462445265-Cad">
+		<prop:property name="type" value="straight"/>
+		<prop:property name="to-position" value="top"/>
+		<prop:property name="from-position" value="bottom"/>
+	</prop:group>
+	<prop:group name="1204071208625-Ca0">
+		<prop:property name="height" value="10"/>
+		<prop:property name="width" value="25"/>
+		<prop:property name="y" value="291"/>
+		<prop:property name="x" value="318.5"/>
+	</prop:group>
+	<prop:group name="1206462777390-C108">
+		<prop:property name="to-x" value="250"/>
+		<prop:property name="to-y" value="50.5"/>
+		<prop:property name="type" value="elbow"/>
+		<prop:property name="from-x" value="-117"/>
+		<prop:property name="from-position" value="bottom"/>
+		<prop:property name="to-position" value="top"/>
+		<prop:property name="from-y" value="-141"/>
+	</prop:group>
+	<prop:group name="1204071345859-Cb0">
+		<prop:property name="to-x" value="245"/>
+		<prop:property name="to-y" value="462.5"/>
+		<prop:property name="type" value="straight"/>
+		<prop:property name="from-x" value="245"/>
+		<prop:property name="to-position" value="top,7.00"/>
+		<prop:property name="from-position" value="bottom"/>
+		<prop:property name="from-y" value="448"/>
+	</prop:group>
+	<prop:group name="1204075362750-Cb9">
+		<prop:property name="height" value="10"/>
+		<prop:property name="width" value="25"/>
+		<prop:property name="y" value="200"/>
+		<prop:property name="x" value="344.5"/>
+	</prop:group>
+	<prop:group name="1204071208578-C9b">
+		<prop:property name="points" value="331.0 851.13245 356.0 894.4337 306.0 894.4337"/>
+	</prop:group>
+	<prop:group name="1206462727968-Cd9">
+		<prop:property name="to-x" value="-168"/>
+		<prop:property name="to-y" value="30"/>
+		<prop:property name="type" value="elbow"/>
+		<prop:property name="from-x" value="-168"/>
+		<prop:property name="from-position" value="bottom,88.14"/>
+		<prop:property name="to-position" value="top"/>
+		<prop:property name="from-y" value="30"/>
+	</prop:group>
+	<prop:group name="1206462570734-Cba">
+		<prop:property name="points" value="417.523 107.566246 467.523 107.566246 442.523 150.86751"/>
+	</prop:group>
+	<prop:group name="1204071184234-C55">
+		<prop:property name="height" value="61"/>
+		<prop:property name="width" value="100"/>
+		<prop:property name="y" value="430.5"/>
+		<prop:property name="x" value="209.25"/>
+	</prop:group>
+	<prop:group name="1204071184187-C4f">
+		<prop:property name="to-x" value="259.25"/>
+		<prop:property name="to-y" value="311.5"/>
+		<prop:property name="type" value="straight"/>
+		<prop:property name="from-x" value="259.25"/>
+		<prop:property name="to-position" value="top"/>
+		<prop:property name="from-position" value="bottom"/>
+		<prop:property name="from-y" value="291"/>
+	</prop:group>
+	<prop:group name="1206464652078-C1e7">
+		<prop:property name="y" value="458"/>
+		<prop:property name="x" value="222.891"/>
+	</prop:group>
+	<prop:group name="1206463204328-C134">
+		<prop:property name="to-x" value="462.977"/>
+		<prop:property name="to-y" value="409"/>
+		<prop:property name="from-x" value="462.523"/>
+		<prop:property name="type" value="straight"/>
+		<prop:property name="to-position" value="top"/>
+		<prop:property name="from-position" value="bottom"/>
+		<prop:property name="from-y" value="384.5"/>
+	</prop:group>
+	<prop:group name="1206461031546-C49">
+		<prop:property name="to-x" value="-265"/>
+		<prop:property name="to-y" value="-7"/>
+		<prop:property name="from-x" value="-265"/>
+		<prop:property name="type" value="elbow"/>
+		<prop:property name="to-position" value="top"/>
+		<prop:property name="from-position" value="bottom"/>
+		<prop:property name="from-y" value="-7"/>
+	</prop:group>
+	<prop:group name="1206462428296-Ca9">
+		<prop:property name="type" value="straight"/>
+		<prop:property name="to-position" value="top"/>
+		<prop:property name="from-position" value="bottom"/>
+	</prop:group>
+	<prop:group name="1206462777140-C100">
+		<prop:property name="height" value="15"/>
+		<prop:property name="width" value="430"/>
+		<prop:property name="y" value="129.5"/>
+		<prop:property name="x" value="36"/>
+	</prop:group>
+	<prop:group name="1206462727937-Cd8">
+		<prop:property name="to-x" value="-169"/>
+		<prop:property name="to-y" value="30"/>
+		<prop:property name="type" value="elbow"/>
+		<prop:property name="from-x" value="-169"/>
+		<prop:property name="from-position" value="bottom,51.395"/>
+		<prop:property name="to-position" value="top"/>
+		<prop:property name="from-y" value="30"/>
+	</prop:group>
+	<prop:group name="1202243376031-Cb">
+		<prop:property name="height" value="10"/>
+		<prop:property name="width" value="25"/>
+		<prop:property name="y" value="312"/>
+		<prop:property name="x" value="264"/>
+	</prop:group>
+	<prop:group name="1206464044828-C1bc">
+		<prop:property name="y" value="431.9337615966797"/>
+		<prop:property name="x" value="508"/>
+	</prop:group>
+	<prop:group name="1206462084562-C95">
+		<prop:property name="points" value="397.523 87.566246 447.523 87.566246 422.523 130.86751"/>
+	</prop:group>
+	<prop:group name="1206462728578-Ced">
+		<prop:property name="y" value="416.5"/>
+		<prop:property name="x" value="531.5"/>
+	</prop:group>
+	<prop:group name="1206462728171-Ce0">
+		<prop:property name="to-x" value="-168"/>
+		<prop:property name="to-y" value="27"/>
+		<prop:property name="type" value="elbow"/>
+		<prop:property name="from-x" value="-168"/>
+		<prop:property name="from-position" value="bottom"/>
+		<prop:property name="to-position" value="top"/>
+		<prop:property name="from-y" value="27"/>
+	</prop:group>
+	<prop:group name="1206462424296-Ca8">
+		<prop:property name="type" value="straight"/>
+		<prop:property name="to-position" value="top"/>
+		<prop:property name="from-position" value="bottom"/>
+	</prop:group>
+	<prop:group name="1206464044171-C1af">
+		<prop:property name="to-x" value="237"/>
+		<prop:property name="to-y" value="681.5667615966797"/>
+		<prop:property name="from-x" value="237"/>
+		<prop:property name="type" value="elbow"/>
+		<prop:property name="to-position" value="top"/>
+		<prop:property name="from-position" value="bottom"/>
+		<prop:property name="from-y" value="645.4337615966797"/>
+	</prop:group>
+	<prop:group name="1206464324953-C1d4">
+		<prop:property name="to-x" value="285.523"/>
+		<prop:property name="to-y" value="544.132"/>
+		<prop:property name="type" value="straight"/>
+		<prop:property name="from-x" value="285.977"/>
+		<prop:property name="from-position" value="bottom"/>
+		<prop:property name="to-position" value="top"/>
+		<prop:property name="from-y" value="515"/>
+	</prop:group>
+	<prop:group name="1206462728218-Ce1">
+		<prop:property name="to-x" value="-168"/>
+		<prop:property name="to-y" value="30"/>
+		<prop:property name="type" value="elbow"/>
+		<prop:property name="from-x" value="-168"/>
+		<prop:property name="from-position" value="bottom"/>
+		<prop:property name="to-position" value="top"/>
+		<prop:property name="from-y" value="30"/>
+	</prop:group>
+	<prop:group name="1206463204265-C132">
+		<prop:property name="to-x" value="462.977"/>
+		<prop:property name="to-y" value="290"/>
+		<prop:property name="from-x" value="462.523"/>
+		<prop:property name="type" value="straight"/>
+		<prop:property name="to-position" value="top"/>
+		<prop:property name="from-position" value="bottom"/>
+		<prop:property name="from-y" value="265.5"/>
+	</prop:group>
+	<prop:group name="1206463369375-C17b">
+		<prop:property name="height" value="61"/>
+		<prop:property name="width" value="100"/>
+		<prop:property name="y" value="95.5"/>
+		<prop:property name="x" value="209.25"/>
+	</prop:group>
+	<prop:group name="1204071208484-C8d">
+		<prop:property name="to-x" value="331"/>
+		<prop:property name="to-y" value="329.5"/>
+		<prop:property name="type" value="straight"/>
+		<prop:property name="from-x" value="331"/>
+		<prop:property name="to-position" value="top"/>
+		<prop:property name="from-position" value="bottom"/>
+		<prop:property name="from-y" value="301"/>
+	</prop:group>
+	<prop:group name="1204071208484-C8e">
+		<prop:property name="to-x" value="331"/>
+		<prop:property name="to-y" value="291"/>
+		<prop:property name="type" value="straight"/>
+		<prop:property name="from-x" value="331"/>
+		<prop:property name="to-position" value="top"/>
+		<prop:property name="from-position" value="bottom"/>
+		<prop:property name="from-y" value="266"/>
+	</prop:group>
+	<prop:group name="1206464324687-C1cf">
+		<prop:property name="to-x" value="285.977"/>
+		<prop:property name="to-y" value="263"/>
+		<prop:property name="type" value="straight"/>
+		<prop:property name="from-x" value="285.523"/>
+		<prop:property name="from-position" value="bottom"/>
+		<prop:property name="to-position" value="top"/>
+		<prop:property name="from-y" value="238.5"/>
+	</prop:group>
+	<prop:group name="1204075373265-Cbe">
+		<prop:property name="points" value="356.0 256.13245 381.0 299.43372 331.0 299.43372"/>
+	</prop:group>
+	<prop:group name="1206462057687-C8a">
+		<prop:property name="height" value="61"/>
+		<prop:property name="width" value="100"/>
+		<prop:property name="y" value="439.5"/>
+		<prop:property name="x" value="209.25"/>
+	</prop:group>
+	<prop:group name="1204071208578-C9a">
+		<prop:property name="height" value="61"/>
+		<prop:property name="width" value="100"/>
+		<prop:property name="y" value="88.5"/>
+		<prop:property name="x" value="281"/>
+	</prop:group>
+	<prop:group name="1206462777531-C10d">
+		<prop:property name="to-x" value="-297"/>
+		<prop:property name="to-y" value="-194"/>
+		<prop:property name="type" value="elbow"/>
+		<prop:property name="from-x" value="-297"/>
+		<prop:property name="from-position" value="bottom"/>
+		<prop:property name="to-position" value="top"/>
+		<prop:property name="from-y" value="-194"/>
+	</prop:group>
+	<prop:group name="1204071184343-C69">
+		<prop:property name="to-x" value="427.0"/>
+		<prop:property name="to-y" value="445.5"/>
+		<prop:property name="type" value="straight"/>
+		<prop:property name="from-x" value="427"/>
+		<prop:property name="to-position" value="top,58.321"/>
+		<prop:property name="from-position" value="bottom"/>
+		<prop:property name="from-y" value="415.75"/>
+	</prop:group>
+	<prop:group name="1204071184343-C68">
+		<prop:property name="to-x" value="427"/>
+		<prop:property name="to-y" value="405.75"/>
+		<prop:property name="type" value="straight"/>
+		<prop:property name="from-x" value="427"/>
+		<prop:property name="to-position" value="top"/>
+		<prop:property name="from-position" value="bottom"/>
+		<prop:property name="from-y" value="384"/>
+	</prop:group>
+	<prop:group name="1206463811343-C19f">
+		<prop:property name="height" value="61"/>
+		<prop:property name="width" value="100"/>
+		<prop:property name="y" value="324"/>
+		<prop:property name="x" value="629"/>
+	</prop:group>
+	<prop:group name="1206464043875-C1a9">
+		<prop:property name="height" value="15"/>
+		<prop:property name="width" value="431"/>
+		<prop:property name="y" value="556.9337615966797"/>
+		<prop:property name="x" value="180"/>
+	</prop:group>
+	<prop:group name="1206462728421-Ce8">
+		<prop:property name="y" value="210.5"/>
+		<prop:property name="x" value="165"/>
+	</prop:group>
+	<prop:group name="1204071184375-C74">
+		<prop:property name="height" value="61"/>
+		<prop:property name="width" value="100"/>
+		<prop:property name="y" value="324"/>
+		<prop:property name="x" value="498"/>
+	</prop:group>
+	<prop:group name="1206460916109-C39">
+		<prop:property name="to-x" value="-281"/>
+		<prop:property name="to-y" value="4"/>
+		<prop:property name="from-x" value="-281"/>
+		<prop:property name="type" value="elbow"/>
+		<prop:property name="to-position" value="top"/>
+		<prop:property name="from-position" value="left"/>
+		<prop:property name="from-y" value="4"/>
+	</prop:group>
+	<prop:group name="1204071184375-C71">
+		<prop:property name="to-x" value="194.0"/>
+		<prop:property name="to-y" value="537.1325"/>
+		<prop:property name="type" value="straight"/>
+		<prop:property name="from-x" value="300"/>
+		<prop:property name="to-position" value="bottom"/>
+		<prop:property name="from-position" value="bottom"/>
+		<prop:property name="from-y" value="504"/>
+	</prop:group>
+	<prop:group name="1204071184375-C70">
+		<prop:property name="to-x" value="300"/>
+		<prop:property name="to-y" value="494"/>
+		<prop:property name="type" value="straight"/>
+		<prop:property name="from-x" value="299"/>
+		<prop:property name="to-position" value="top"/>
+		<prop:property name="from-position" value="bottom"/>
+		<prop:property name="from-y" value="460.5"/>
+	</prop:group>
+	<prop:group name="1206462728625-Cef">
+		<prop:property name="y" value="174"/>
+		<prop:property name="x" value="202.954"/>
+	</prop:group>
+	<prop:group name="1202243393859-Cf">
+		<prop:property name="to-x" value="276.5"/>
+		<prop:property name="to-y" value="446"/>
+		<prop:property name="from-x" value="276"/>
+		<prop:property name="type" value="elbow"/>
+		<prop:property name="from-position" value="bottom"/>
+		<prop:property name="to-position" value="top"/>
+		<prop:property name="from-y" value="286.5"/>
+	</prop:group>
+	<prop:group name="1204071184375-C73">
+		<prop:property name="to-x" value="351"/>
+		<prop:property name="to-y" value="291.5"/>
+		<prop:property name="type" value="straight"/>
+		<prop:property name="from-x" value="351.5"/>
+		<prop:property name="to-position" value="top"/>
+		<prop:property name="from-position" value="bottom"/>
+		<prop:property name="from-y" value="194"/>
+	</prop:group>
+	<prop:group name="1204071184375-C72">
+		<prop:property name="to-x" value="299.5"/>
+		<prop:property name="to-y" value="155"/>
+		<prop:property name="type" value="straight"/>
+		<prop:property name="from-x" value="231.0"/>
+		<prop:property name="to-position" value="top"/>
+		<prop:property name="from-position" value="bottom"/>
+		<prop:property name="from-y" value="132.86751"/>
+	</prop:group>
+	<prop:group name="1206464324625-C1ce">
+		<prop:property name="to-x" value="285.523"/>
+		<prop:property name="to-y" value="177.5"/>
+		<prop:property name="type" value="straight"/>
+		<prop:property name="from-x" value="285.523"/>
+		<prop:property name="from-position" value="bottom"/>
+		<prop:property name="to-position" value="top"/>
+		<prop:property name="from-y" value="143.868"/>
+	</prop:group>
+	<prop:group name="1206462570875-Cbf">
+		<prop:property name="y" value="270"/>
+		<prop:property name="x" value="430.477"/>
+	</prop:group>
+	<prop:group name="1206464325171-C1d8">
+		<prop:property name="y" value="296.5"/>
+		<prop:property name="x" value="235.52299999999997"/>
+	</prop:group>
+	<prop:group name="1206462570828-Cbd">
+		<prop:property name="y" value="303.5"/>
+		<prop:property name="x" value="392.52299999999997"/>
+	</prop:group>
+	<prop:group name="1206462422031-Ca7">
+		<prop:property name="type" value="straight"/>
+		<prop:property name="to-position" value="top"/>
+		<prop:property name="from-position" value="bottom"/>
+	</prop:group>
+	<prop:group name="1204071184343-C6b">
+		<prop:property name="to-x" value="299.0"/>
+		<prop:property name="to-y" value="460.5"/>
+		<prop:property name="type" value="straight"/>
+		<prop:property name="from-x" value="299"/>
+		<prop:property name="to-position" value="top,39.797"/>
+		<prop:property name="from-position" value="bottom"/>
+		<prop:property name="from-y" value="415.75"/>
+	</prop:group>
+	<prop:group name="1204075355546-Cb7">
+		<prop:property name="points" value="332.0 20.566238 382.0 20.566238 357.0 63.867523"/>
+	</prop:group>
+	<prop:group name="1206464118750-C1c8">
+		<prop:property name="to-x" value="2"/>
+		<prop:property name="to-y" value="-5"/>
+		<prop:property name="from-x" value="2"/>
+		<prop:property name="type" value="straight"/>
+		<prop:property name="to-position" value="top"/>
+		<prop:property name="from-position" value="bottom,51.395"/>
+		<prop:property name="from-y" value="-5"/>
+	</prop:group>
+	<prop:group name="1206462728593-Cee">
+		<prop:property name="y" value="652"/>
+		<prop:property name="x" value="210.5"/>
+	</prop:group>
+	<prop:group name="1206463204375-C135">
+		<prop:property name="to-x" value="462.523"/>
+		<prop:property name="to-y" value="445.5"/>
+		<prop:property name="from-x" value="462.977"/>
+		<prop:property name="type" value="straight"/>
+		<prop:property name="to-position" value="top"/>
+		<prop:property name="from-position" value="bottom"/>
+		<prop:property name="from-y" value="419"/>
+	</prop:group>
+	<prop:group name="1204071184343-C6a">
+		<prop:property name="to-x" value="299"/>
+		<prop:property name="to-y" value="405.75"/>
+		<prop:property name="type" value="straight"/>
+		<prop:property name="from-x" value="299"/>
+		<prop:property name="to-position" value="top"/>
+		<prop:property name="from-position" value="bottom"/>
+		<prop:property name="from-y" value="384"/>
+	</prop:group>
+	<prop:group name="1206462777656-C111">
+		<prop:property name="to-x" value="-296"/>
+		<prop:property name="to-y" value="-198"/>
+		<prop:property name="type" value="elbow"/>
+		<prop:property name="from-x" value="-296"/>
+		<prop:property name="from-position" value="bottom,13.721"/>
+		<prop:property name="to-position" value="top"/>
+		<prop:property name="from-y" value="-198"/>
+	</prop:group>
+	<prop:group name="1206463047312-C127">
+		<prop:property name="y" value="772.5"/>
+		<prop:property name="x" value="281"/>
+	</prop:group>
+	<prop:group name="1206464044281-C1b1">
+		<prop:property name="to-x" value="229.45399999999995"/>
+		<prop:property name="to-y" value="157.4337615966797"/>
+		<prop:property name="from-x" value="229"/>
+		<prop:property name="type" value="elbow"/>
+		<prop:property name="to-position" value="top"/>
+		<prop:property name="from-position" value="bottom"/>
+		<prop:property name="from-y" value="114.30176159667968"/>
+	</prop:group>
+	<prop:group name="1204071208500-C8f">
+		<prop:property name="to-x" value="331"/>
+		<prop:property name="to-y" value="205"/>
+		<prop:property name="type" value="straight"/>
+		<prop:property name="from-x" value="331"/>
+		<prop:property name="to-position" value="top"/>
+		<prop:property name="from-position" value="bottom"/>
+		<prop:property name="from-y" value="183"/>
+	</prop:group>
+	<prop:group name="1204071285406-Caa">
+		<prop:property name="to-x" value="331"/>
+		<prop:property name="to-y" value="734"/>
+		<prop:property name="type" value="straight"/>
+		<prop:property name="from-x" value="331"/>
+		<prop:property name="to-position" value="top"/>
+		<prop:property name="from-position" value="bottom"/>
+		<prop:property name="from-y" value="714"/>
+	</prop:group>
+	<prop:group name="1206463469328-C187">
+		<prop:property name="to-x" value="442.977"/>
+		<prop:property name="to-y" value="270"/>
+		<prop:property name="type" value="straight"/>
+		<prop:property name="from-x" value="442.523"/>
+		<prop:property name="from-position" value="bottom"/>
+		<prop:property name="to-position" value="top"/>
+		<prop:property name="from-y" value="245.5"/>
+	</prop:group>
+	<prop:group name="1206462570546-Cb3">
+		<prop:property name="to-x" value="442.523"/>
+		<prop:property name="to-y" value="184.5"/>
+		<prop:property name="type" value="straight"/>
+		<prop:property name="from-x" value="442.523"/>
+		<prop:property name="from-position" value="bottom"/>
+		<prop:property name="to-position" value="top"/>
+		<prop:property name="from-y" value="150.868"/>
+	</prop:group>
+	<prop:group name="1206462727843-Cd5">
+		<prop:property name="height" value="15"/>
+		<prop:property name="width" value="431"/>
+		<prop:property name="y" value="573.5"/>
+		<prop:property name="x" value="166"/>
+	</prop:group>
+	<prop:group name="1204071208640-Ca5">
+		<prop:property name="height" value="10"/>
+		<prop:property name="width" value="25"/>
+		<prop:property name="y" value="734"/>
+		<prop:property name="x" value="318.5"/>
+	</prop:group>
+	<prop:group name="1206462057734-C8c">
+		<prop:property name="height" value="61"/>
+		<prop:property name="width" value="100"/>
+		<prop:property name="y" value="202.5"/>
+		<prop:property name="x" value="209.25"/>
+	</prop:group>
+	<prop:group name="1206462363296-Ca3">
+		<prop:property name="y" value="369"/>
+		<prop:property name="x" value="410.477"/>
+	</prop:group>
+	<prop:group name="1204071208640-Ca4">
+		<prop:property name="height" value="10"/>
+		<prop:property name="width" value="25"/>
+		<prop:property name="y" value="624"/>
+		<prop:property name="x" value="318.5"/>
+	</prop:group>
+	<prop:group name="1204071208531-C93">
+		<prop:property name="height" value="15"/>
+		<prop:property name="width" value="200"/>
+		<prop:property name="y" value="462.5"/>
+		<prop:property name="x" value="231"/>
+	</prop:group>
+	<prop:group name="1204071208640-Ca3">
+		<prop:property name="height" value="10"/>
+		<prop:property name="width" value="25"/>
+		<prop:property name="y" value="507"/>
+		<prop:property name="x" value="318.5"/>
+	</prop:group>
+	<prop:group name="1204071208531-C94">
+		<prop:property name="height" value="15"/>
+		<prop:property name="width" value="200"/>
+		<prop:property name="y" value="329.5"/>
+		<prop:property name="x" value="231"/>
+	</prop:group>
+	<prop:group name="1206463469421-C189">
+		<prop:property name="to-x" value="442.977"/>
+		<prop:property name="to-y" value="389"/>
+		<prop:property name="type" value="straight"/>
+		<prop:property name="from-x" value="442.523"/>
+		<prop:property name="from-position" value="bottom"/>
+		<prop:property name="to-position" value="top"/>
+		<prop:property name="from-y" value="364.5"/>
+	</prop:group>
+	<prop:group name="1206461174546-C50">
+		<prop:property name="to-x" value="-281"/>
+		<prop:property name="to-y" value="1"/>
+		<prop:property name="from-x" value="-281"/>
+		<prop:property name="type" value="elbow"/>
+		<prop:property name="to-position" value="top"/>
+		<prop:property name="from-position" value="bottom"/>
+		<prop:property name="from-y" value="1"/>
+	</prop:group>
+	<prop:group name="1206464044765-C1bb">
+		<prop:property name="y" value="431.9337615966797"/>
+		<prop:property name="x" value="350"/>
+	</prop:group>
+	<prop:group name="1206462728359-Ce6">
+		<prop:property name="points" value="190.0 87.56624 240.0 87.56624 215.0 130.86752"/>
+	</prop:group>
+	<prop:group name="1206462430562-Caa">
+		<prop:property name="type" value="straight"/>
+		<prop:property name="to-position" value="top"/>
+		<prop:property name="from-position" value="bottom"/>
+	</prop:group>
+	<prop:group name="1206464325062-C1d6">
+		<prop:property name="points" value="285.523 544.13245 310.523 587.4338 260.523 587.4338"/>
+	</prop:group>
+	<prop:group name="1202243312359-C4">
+		<prop:property name="points" value="276.5 344.13245 301.5 387.43372 251.5 387.43372"/>
+	</prop:group>
+	<prop:group name="1204071146625-C38">
+		<prop:property name="height" value="61"/>
+		<prop:property name="width" value="100"/>
+		<prop:property name="y" value="363.5"/>
+		<prop:property name="x" value="186.937"/>
+	</prop:group>
+	<prop:group name="1204071208500-C90">
+		<prop:property name="to-x" value="331"/>
+		<prop:property name="to-y" value="173"/>
+		<prop:property name="type" value="straight"/>
+		<prop:property name="from-x" value="331"/>
+		<prop:property name="to-position" value="top"/>
+		<prop:property name="from-position" value="bottom"/>
+		<prop:property name="from-y" value="149.5"/>
+	</prop:group>
+	<prop:group name="1206463204437-C137">
+		<prop:property name="to-x" value="462.523"/>
+		<prop:property name="to-y" value="571.132"/>
+		<prop:property name="from-x" value="462.977"/>
+		<prop:property name="type" value="straight"/>
+		<prop:property name="to-position" value="top"/>
+		<prop:property name="from-position" value="bottom"/>
+		<prop:property name="from-y" value="542"/>
+	</prop:group>
+	<prop:group name="1206463469781-C192">
+		<prop:property name="y" value="270"/>
+		<prop:property name="x" value="430.477"/>
+	</prop:group>
+	<prop:group name="1206462057718-C8b">
+		<prop:property name="height" value="61"/>
+		<prop:property name="width" value="100"/>
+		<prop:property name="y" value="321.5"/>
+		<prop:property name="x" value="209.25"/>
+	</prop:group>
+	<prop:group name="1204071184265-C58">
+		<prop:property name="points" value="234.25 21.566246 284.25 21.566246 259.25 64.867516"/>
+	</prop:group>
+	<prop:group name="1204071184265-C59">
+		<prop:property name="height" value="61"/>
+		<prop:property name="width" value="100"/>
+		<prop:property name="y" value="201.5"/>
+		<prop:property name="x" value="209.25"/>
+	</prop:group>
+	<prop:group name="1204071184265-C57">
+		<prop:property name="points" value="259.25 548.13245 284.25 591.4337 234.25 591.4337"/>
+	</prop:group>
+	<prop:group name="1206462570687-Cb8">
+		<prop:property name="to-x" value="442.977"/>
+		<prop:property name="to-y" value="512"/>
+		<prop:property name="type" value="straight"/>
+		<prop:property name="from-x" value="442.523"/>
+		<prop:property name="from-position" value="bottom"/>
+		<prop:property name="to-position" value="top"/>
+		<prop:property name="from-y" value="486.5"/>
+	</prop:group>
+	<prop:group name="1206461070031-C4e">
+		<prop:property name="to-x" value="-281"/>
+		<prop:property name="to-y" value="11"/>
+		<prop:property name="from-x" value="-281"/>
+		<prop:property name="type" value="elbow"/>
+		<prop:property name="to-position" value="top"/>
+		<prop:property name="from-position" value="bottom"/>
+		<prop:property name="from-y" value="11"/>
+	</prop:group>
+	<prop:group name="1206463811234-C19d">
+		<prop:property name="to-x" value="568"/>
+		<prop:property name="to-y" value="425.75"/>
+		<prop:property name="from-x" value="568"/>
+		<prop:property name="type" value="straight"/>
+		<prop:property name="from-position" value="bottom"/>
+		<prop:property name="to-position" value="top"/>
+		<prop:property name="from-y" value="405"/>
+	</prop:group>
+	<prop:group name="1206463469578-C18d">
+		<prop:property name="points" value="417.523 107.566246 467.523 107.566246 442.523 150.86751"/>
+	</prop:group>
+	<prop:group name="1206464044671-C1b9">
+		<prop:property name="points" value="237.0 681.5663 262.0 724.86755 212.0 724.86755"/>
+	</prop:group>
+	<prop:group name="1206460581531-C1f">
+		<prop:property name="y" value="422.5"/>
+		<prop:property name="x" value="61"/>
+	</prop:group>
+	<prop:group name="1206462777171-C101">
+		<prop:property name="height" value="15"/>
+		<prop:property name="width" value="431"/>
+		<prop:property name="y" value="349.5"/>
+		<prop:property name="x" value="37"/>
+	</prop:group>
+	<prop:group name="1206464043812-C1a8">
+		<prop:property name="height" value="15"/>
+		<prop:property name="width" value="430"/>
+		<prop:property name="y" value="336.9337615966797"/>
+		<prop:property name="x" value="179"/>
+	</prop:group>
+	<prop:group name="1206462728531-Cec">
+		<prop:property name="y" value="416.5"/>
+		<prop:property name="x" value="373.5"/>
+	</prop:group>
+	<prop:group name="1206464324906-C1d3">
+		<prop:property name="to-x" value="285.977"/>
+		<prop:property name="to-y" value="505"/>
+		<prop:property name="type" value="straight"/>
+		<prop:property name="from-x" value="285.523"/>
+		<prop:property name="from-position" value="bottom"/>
+		<prop:property name="to-position" value="top"/>
+		<prop:property name="from-y" value="479.5"/>
+	</prop:group>
+	<prop:group name="1206462570796-Cbc">
+		<prop:property name="y" value="184.5"/>
+		<prop:property name="x" value="392.523"/>
+	</prop:group>
+	<prop:group name="1206464723843-C1f0">
+		<prop:property name="type" value="straight"/>
+		<prop:property name="to-position" value="top"/>
+		<prop:property name="from-position" value="bottom"/>
+	</prop:group>
+	<prop:group name="1206462777359-C107">
+		<prop:property name="to-x" value="94"/>
+		<prop:property name="to-y" value="474.13300000000004"/>
+		<prop:property name="type" value="elbow"/>
+		<prop:property name="from-x" value="94"/>
+		<prop:property name="from-position" value="bottom"/>
+		<prop:property name="to-position" value="top"/>
+		<prop:property name="from-y" value="438"/>
+	</prop:group>
+	<prop:group name="1204071184328-C65">
+		<prop:property name="height" value="15"/>
+		<prop:property name="width" value="691"/>
+		<prop:property name="y" value="445.5"/>
+		<prop:property name="x" value="24"/>
+	</prop:group>
+	<prop:group name="1204071184328-C66">
+		<prop:property name="to-x" value="548"/>
+		<prop:property name="to-y" value="405.75"/>
+		<prop:property name="type" value="straight"/>
+		<prop:property name="from-x" value="548"/>
+		<prop:property name="to-position" value="top"/>
+		<prop:property name="from-position" value="bottom"/>
+		<prop:property name="from-y" value="385"/>
+	</prop:group>
+	<prop:group name="1206462777625-C110">
+		<prop:property name="to-x" value="415"/>
+		<prop:property name="to-y" value="349.5"/>
+		<prop:property name="type" value="elbow"/>
+		<prop:property name="from-x" value="415"/>
+		<prop:property name="from-position" value="bottom"/>
+		<prop:property name="to-position" value="top,87.703"/>
+		<prop:property name="from-y" value="285.5"/>
+	</prop:group>
+	<prop:group name="1206463204546-C13a">
+		<prop:property name="y" value="204.5"/>
+		<prop:property name="x" value="412.523"/>
+	</prop:group>
+	<prop:group name="1206462435859-Cab">
+		<prop:property name="type" value="straight"/>
+		<prop:property name="to-position" value="top"/>
+		<prop:property name="from-position" value="bottom"/>
+	</prop:group>
+	<prop:group name="1204071184328-C64">
+		<prop:property name="to-x" value="53"/>
+		<prop:property name="to-y" value="323"/>
+		<prop:property name="from-x" value="53"/>
+		<prop:property name="type" value="straight"/>
+		<prop:property name="from-position" value="bottom,3.943"/>
+		<prop:property name="to-position" value="top"/>
+		<prop:property name="from-y" value="277.5"/>
+	</prop:group>
+	<prop:group name="1206463409062-C17f">
+		<prop:property name="type" value="straight"/>
+		<prop:property name="to-position" value="top"/>
+		<prop:property name="from-position" value="bottom"/>
+	</prop:group>
+	<prop:group name="1206462570765-Cbb">
+		<prop:property name="points" value="442.523 551.13245 467.523 594.4338 417.523 594.4338"/>
+	</prop:group>
+	<prop:group name="1204071208593-C9d">
+		<prop:property name="height" value="10"/>
+		<prop:property name="width" value="25"/>
+		<prop:property name="y" value="64"/>
+		<prop:property name="x" value="318.5"/>
+	</prop:group>
+	<prop:group name="1206464324843-C1d2">
+		<prop:property name="to-x" value="285.523"/>
+		<prop:property name="to-y" value="418.5"/>
+		<prop:property name="type" value="straight"/>
+		<prop:property name="from-x" value="285.977"/>
+		<prop:property name="from-position" value="bottom"/>
+		<prop:property name="to-position" value="top"/>
+		<prop:property name="from-y" value="392"/>
+	</prop:group>
+	<prop:group name="1204071208593-C9c">
+		<prop:property name="points" value="306.0 7.566246 356.0 7.566246 331.0 50.867508"/>
+	</prop:group>
+	<prop:group name="1206462570859-Cbe">
+		<prop:property name="y" value="425.5"/>
+		<prop:property name="x" value="392.52299999999997"/>
+	</prop:group>
+	<prop:group name="1204071096890-C30">
+		<prop:property name="height" value="61"/>
+		<prop:property name="width" value="100"/>
+		<prop:property name="y" value="225.5"/>
+		<prop:property name="x" value="226"/>
+	</prop:group>
+	<prop:group name="1206461015890-C46">
+		<prop:property name="to-x" value="-281"/>
+		<prop:property name="to-y" value="-1"/>
+		<prop:property name="type" value="elbow"/>
+		<prop:property name="from-x" value="-281"/>
+		<prop:property name="to-position" value="top"/>
+		<prop:property name="from-position" value="bottom"/>
+		<prop:property name="from-y" value="-1"/>
+	</prop:group>
+	<prop:group name="1206463811156-C19c">
+		<prop:property name="to-x" value="568"/>
+		<prop:property name="to-y" value="344"/>
+		<prop:property name="type" value="straight"/>
+		<prop:property name="from-x" value="567.5"/>
+		<prop:property name="to-position" value="top"/>
+		<prop:property name="from-position" value="bottom,93.548"/>
+		<prop:property name="from-y" value="297.5"/>
+	</prop:group>
+	<prop:group name="1204071184328-C67">
+		<prop:property name="to-x" value="548"/>
+		<prop:property name="to-y" value="445.5"/>
+		<prop:property name="type" value="straight"/>
+		<prop:property name="from-x" value="548"/>
+		<prop:property name="to-position" value="top,75.832"/>
+		<prop:property name="from-position" value="bottom"/>
+		<prop:property name="from-y" value="415.75"/>
+	</prop:group>
+	<prop:group name="1206462219515-C97">
+		<prop:property name="points" value="422.523 531.13245 447.523 574.4338 397.523 574.4338"/>
+	</prop:group>
+	<prop:group name="1204075389296-Cbf">
+		<prop:property name="to-x" value="357"/>
+		<prop:property name="to-y" value="157"/>
+		<prop:property name="type" value="straight"/>
+		<prop:property name="from-x" value="357"/>
+		<prop:property name="to-position" value="top"/>
+		<prop:property name="from-position" value="bottom"/>
+		<prop:property name="from-y" value="137.867516"/>
+	</prop:group>
+	<prop:group name="1206462777968-C11b">
+		<prop:property name="y" value="94"/>
+		<prop:property name="x" value="238.954"/>
+	</prop:group>
+	<prop:group name="1204071208515-C91">
+		<prop:property name="to-x" value="331"/>
+		<prop:property name="to-y" value="88.5"/>
+		<prop:property name="type" value="straight"/>
+		<prop:property name="from-x" value="331"/>
+		<prop:property name="to-position" value="top"/>
+		<prop:property name="from-position" value="bottom"/>
+		<prop:property name="from-y" value="74"/>
+	</prop:group>
+	<prop:group name="1204071208515-C92">
+		<prop:property name="to-x" value="331"/>
+		<prop:property name="to-y" value="64"/>
+		<prop:property name="type" value="straight"/>
+		<prop:property name="from-x" value="331"/>
+		<prop:property name="to-position" value="top"/>
+		<prop:property name="from-position" value="bottom"/>
+		<prop:property name="from-y" value="50.867508"/>
+	</prop:group>
+	<prop:group name="1206464044468-C1b5">
+		<prop:property name="to-x" value="400"/>
+		<prop:property name="to-y" value="556.9337615966797"/>
+		<prop:property name="from-x" value="400"/>
+		<prop:property name="type" value="elbow"/>
+		<prop:property name="to-position" value="top,51.044"/>
+		<prop:property name="from-position" value="bottom"/>
+		<prop:property name="from-y" value="492.9337615966797"/>
+	</prop:group>
+	<prop:group name="1206460968203-C3c">
+		<prop:property name="to-x" value="-281"/>
+		<prop:property name="to-y" value="4"/>
+		<prop:property name="from-x" value="-281"/>
+		<prop:property name="type" value="elbow"/>
+		<prop:property name="to-position" value="top"/>
+		<prop:property name="from-position" value="bottom,88.14"/>
+		<prop:property name="from-y" value="4"/>
+	</prop:group>
+	<prop:group name="1206464325328-C1db">
+		<prop:property name="y" value="382"/>
+		<prop:property name="x" value="273.477"/>
+	</prop:group>
+	<prop:group name="1206461052578-C4b">
+		<prop:property name="y" value="277"/>
+		<prop:property name="x" value="89.95400000000001"/>
+	</prop:group>
+	<prop:group name="1206463072343-C12a">
+		<prop:property name="type" value="straight"/>
+		<prop:property name="to-position" value="top"/>
+		<prop:property name="from-position" value="bottom"/>
+	</prop:group>
+	<prop:group name="1206462728062-Cdc">
+		<prop:property name="to-x" value="-152"/>
+		<prop:property name="to-y" value="19"/>
+		<prop:property name="type" value="elbow"/>
+		<prop:property name="from-x" value="-152"/>
+		<prop:property name="from-position" value="bottom"/>
+		<prop:property name="to-position" value="top"/>
+		<prop:property name="from-y" value="19"/>
+	</prop:group>
+	<prop:group name="1206462728453-Ce9">
+		<prop:property name="y" value="448.5"/>
+		<prop:property name="x" value="174"/>
+	</prop:group>
+	<prop:group name="1204071130828-C32">
+		<prop:property name="points" value="210.937 114.566246 260.937 114.566246 235.937 157.86751"/>
+	</prop:group>
+	<prop:group name="1206462439921-Cac">
+		<prop:property name="type" value="straight"/>
+		<prop:property name="to-position" value="top"/>
+		<prop:property name="from-position" value="bottom"/>
+	</prop:group>
+	<prop:group name="1206462777593-C10f">
+		<prop:property name="to-x" value="257"/>
+		<prop:property name="to-y" value="349.5"/>
+		<prop:property name="type" value="elbow"/>
+		<prop:property name="from-x" value="257"/>
+		<prop:property name="from-position" value="bottom"/>
+		<prop:property name="to-position" value="top,51.044"/>
+		<prop:property name="from-y" value="285.5"/>
+	</prop:group>
+	<prop:group name="1206460749453-C2a">
+		<prop:property name="y" value="390.5"/>
+		<prop:property name="x" value="260.5"/>
+	</prop:group>
+	<prop:group name="1206463204234-C131">
+		<prop:property name="to-x" value="462.523"/>
+		<prop:property name="to-y" value="204.5"/>
+		<prop:property name="from-x" value="462.523"/>
+		<prop:property name="type" value="straight"/>
+		<prop:property name="to-position" value="top"/>
+		<prop:property name="from-position" value="bottom"/>
+		<prop:property name="from-y" value="170.868"/>
+	</prop:group>
+	<prop:group name="1204071338109-Caf">
+		<prop:property name="to-x" value="405"/>
+		<prop:property name="to-y" value="462.5"/>
+		<prop:property name="type" value="straight"/>
+		<prop:property name="from-x" value="405"/>
+		<prop:property name="to-position" value="top,87.00"/>
+		<prop:property name="from-position" value="bottom"/>
+		<prop:property name="from-y" value="449"/>
+	</prop:group>
+	<prop:group name="1206463369281-C179">
+		<prop:property name="to-x" value="279.25"/>
+		<prop:property name="to-y" value="535"/>
+		<prop:property name="from-x" value="279.25"/>
+		<prop:property name="type" value="straight"/>
+		<prop:property name="from-position" value="bottom"/>
+		<prop:property name="to-position" value="top"/>
+		<prop:property name="from-y" value="511.5"/>
+	</prop:group>
+	<prop:group name="1206462728484-Cea">
+		<prop:property name="y" value="448.5"/>
+		<prop:property name="x" value="336"/>
+	</prop:group>
+	<prop:group name="1206460567734-C18">
+		<prop:property name="points" value="77.0 61.566242 127.0 61.566242 102.0 104.867516"/>
+	</prop:group>
+	<prop:group name="1206463204406-C136">
+		<prop:property name="to-x" value="462.977"/>
+		<prop:property name="to-y" value="532"/>
+		<prop:property name="from-x" value="462.523"/>
+		<prop:property name="type" value="straight"/>
+		<prop:property name="to-position" value="top"/>
+		<prop:property name="from-position" value="bottom"/>
+		<prop:property name="from-y" value="506.5"/>
+	</prop:group>
+	<prop:group name="1206461634187-C53">
+		<prop:property name="to-x" value="-281"/>
+		<prop:property name="to-y" value="-1"/>
+		<prop:property name="type" value="elbow"/>
+		<prop:property name="from-x" value="-281"/>
+		<prop:property name="to-position" value="top,51.044"/>
+		<prop:property name="from-position" value="bottom"/>
+		<prop:property name="from-y" value="-1"/>
+	</prop:group>
+	<prop:group name="1206462777328-C106">
+		<prop:property name="to-x" value="-297"/>
+		<prop:property name="to-y" value="-186"/>
+		<prop:property name="type" value="elbow"/>
+		<prop:property name="from-x" value="-297"/>
+		<prop:property name="from-position" value="bottom"/>
+		<prop:property name="to-position" value="top"/>
+		<prop:property name="from-y" value="-186"/>
+	</prop:group>
+	<prop:group name="1204071184359-C6d">
+		<prop:property name="to-x" value="180"/>
+		<prop:property name="to-y" value="445.5"/>
+		<prop:property name="type" value="straight"/>
+		<prop:property name="from-x" value="179"/>
+		<prop:property name="to-position" value="top,22.721"/>
+		<prop:property name="from-position" value="bottom"/>
+		<prop:property name="from-y" value="415.75"/>
+	</prop:group>
+	<prop:group name="1204071184359-C6c">
+		<prop:property name="to-x" value="181"/>
+		<prop:property name="to-y" value="405.75"/>
+		<prop:property name="type" value="straight"/>
+		<prop:property name="from-x" value="181.0"/>
+		<prop:property name="to-position" value="top"/>
+		<prop:property name="from-position" value="bottom"/>
+		<prop:property name="from-y" value="384.0"/>
+	</prop:group>
+	<prop:group name="1206464044718-C1ba">
+		<prop:property name="y" value="431.9337615966797"/>
+		<prop:property name="x" value="188"/>
+	</prop:group>
+	<prop:group name="1204071184359-C6f">
+		<prop:property name="to-x" value="55"/>
+		<prop:property name="to-y" value="445.5"/>
+		<prop:property name="type" value="straight"/>
+		<prop:property name="from-x" value="54"/>
+		<prop:property name="to-position" value="top,4.342"/>
+		<prop:property name="from-position" value="bottom"/>
+		<prop:property name="from-y" value="415.75"/>
+	</prop:group>
+	<prop:group name="1206462728328-Ce5">
+		<prop:property name="to-x" value="-167"/>
+		<prop:property name="to-y" value="26"/>
+		<prop:property name="type" value="elbow"/>
+		<prop:property name="from-x" value="-167"/>
+		<prop:property name="from-position" value="bottom,13.721"/>
+		<prop:property name="to-position" value="top"/>
+		<prop:property name="from-y" value="26"/>
+	</prop:group>
+	<prop:group name="1204071184359-C6e">
+		<prop:property name="to-x" value="54"/>
+		<prop:property name="to-y" value="405.75"/>
+		<prop:property name="type" value="straight"/>
+		<prop:property name="from-x" value="54"/>
+		<prop:property name="to-position" value="top"/>
+		<prop:property name="from-position" value="bottom"/>
+		<prop:property name="from-y" value="384"/>
+	</prop:group>
+	<prop:group name="1206461034812-C4a">
+		<prop:property name="to-x" value="-281"/>
+		<prop:property name="to-y" value="-1"/>
+		<prop:property name="type" value="elbow"/>
+		<prop:property name="from-x" value="-281"/>
+		<prop:property name="to-position" value="top"/>
+		<prop:property name="from-position" value="bottom"/>
+		<prop:property name="from-y" value="-1"/>
+	</prop:group>
+	<prop:group name="1204071184156-C4b">
+		<prop:property name="to-x" value="260.25"/>
+		<prop:property name="to-y" value="548.5"/>
+		<prop:property name="type" value="straight"/>
+		<prop:property name="from-x" value="260.25"/>
+		<prop:property name="to-position" value="top"/>
+		<prop:property name="from-position" value="bottom"/>
+		<prop:property name="from-y" value="525"/>
+	</prop:group>
+	<prop:group name="1206461027625-C47">
+		<prop:property name="y" value="148"/>
+		<prop:property name="x" value="89.95400000000001"/>
+	</prop:group>
+	<prop:group name="1206462368640-Ca5">
+		<prop:property name="y" value="492"/>
+		<prop:property name="x" value="410.477"/>
+	</prop:group>
+	<prop:group name="1202243355703-C9">
+	</prop:group>
+	<prop:group name="1204071184156-C4c">
+		<prop:property name="to-x" value="259.25"/>
+		<prop:property name="to-y" value="515"/>
+		<prop:property name="type" value="straight"/>
+		<prop:property name="from-x" value="259.25"/>
+		<prop:property name="to-position" value="top"/>
+		<prop:property name="from-position" value="bottom"/>
+		<prop:property name="from-y" value="491.5"/>
+	</prop:group>
+	<prop:group name="1206464324734-C1d0">
+		<prop:property name="to-x" value="285.523"/>
+		<prop:property name="to-y" value="296.5"/>
+		<prop:property name="type" value="straight"/>
+		<prop:property name="from-x" value="285.977"/>
+		<prop:property name="from-position" value="bottom"/>
+		<prop:property name="to-position" value="top"/>
+		<prop:property name="from-y" value="273"/>
+	</prop:group>
+	<prop:group name="1206464044968-C1bf">
+		<prop:property name="y" value="634.4337615966797"/>
+		<prop:property name="x" value="224.5"/>
+	</prop:group>
+	<prop:group name="1206463469375-C188">
+		<prop:property name="to-x" value="442.523"/>
+		<prop:property name="to-y" value="303.5"/>
+		<prop:property name="type" value="straight"/>
+		<prop:property name="from-x" value="442.977"/>
+		<prop:property name="from-position" value="bottom"/>
+		<prop:property name="to-position" value="top"/>
+		<prop:property name="from-y" value="280"/>
+	</prop:group>
+	<prop:group name="1204071184187-C50">
+		<prop:property name="to-x" value="259.25"/>
+		<prop:property name="to-y" value="281"/>
+		<prop:property name="type" value="straight"/>
+		<prop:property name="from-x" value="259.25"/>
+		<prop:property name="to-position" value="top"/>
+		<prop:property name="from-position" value="bottom"/>
+		<prop:property name="from-y" value="262.5"/>
+	</prop:group>
+	<prop:group name="1204071208562-C98">
+		<prop:property name="y" value="364"/>
+		<prop:property name="x" value="195"/>
+	</prop:group>
+	<prop:group name="1206463204296-C133">
+		<prop:property name="to-x" value="462.523"/>
+		<prop:property name="to-y" value="323.5"/>
+		<prop:property name="from-x" value="462.977"/>
+		<prop:property name="type" value="straight"/>
+		<prop:property name="to-position" value="top"/>
+		<prop:property name="from-position" value="bottom"/>
+		<prop:property name="from-y" value="300"/>
+	</prop:group>
+	<prop:group name="1206461006781-C43">
+		<prop:property name="y" value="626"/>
+		<prop:property name="x" value="97.5"/>
+	</prop:group>
+	<prop:group name="1204071208562-C97">
+		<prop:property name="y" value="540"/>
+		<prop:property name="x" value="281"/>
+	</prop:group>
+	<prop:group name="1204071143625-C35">
+		<prop:property name="canvas-height" value="909.434"/>
+		<prop:property name="canvas-width" value="849"/>
+	</prop:group>
+	<prop:group name="1204075358125-Cb8">
+		<prop:property name="height" value="10"/>
+		<prop:property name="width" value="25"/>
+		<prop:property name="y" value="83"/>
+		<prop:property name="x" value="344.5"/>
+	</prop:group>
+	<prop:group name="1204071208562-C99">
+		<prop:property name="y" value="205"/>
+		<prop:property name="x" value="281"/>
+	</prop:group>
+	<prop:group name="1204071143625-C36">
+		<prop:property name="height" value="61"/>
+		<prop:property name="width" value="100"/>
+		<prop:property name="y" value="226.5"/>
+		<prop:property name="x" value="185.937"/>
+	</prop:group>
+	<prop:group name="1206462570625-Cb6">
+		<prop:property name="to-x" value="442.977"/>
+		<prop:property name="to-y" value="389"/>
+		<prop:property name="type" value="straight"/>
+		<prop:property name="from-x" value="442.523"/>
+		<prop:property name="from-position" value="bottom"/>
+		<prop:property name="to-position" value="top"/>
+		<prop:property name="from-y" value="364.5"/>
+	</prop:group>
+	<prop:group name="1206463811281-C19e">
+		<prop:property name="to-x" value="568"/>
+		<prop:property name="to-y" value="465.5"/>
+		<prop:property name="from-x" value="568"/>
+		<prop:property name="type" value="straight"/>
+		<prop:property name="from-position" value="bottom"/>
+		<prop:property name="to-position" value="top,94.79"/>
+		<prop:property name="from-y" value="435.75"/>
+	</prop:group>
+	<prop:group name="1204071208468-C8c">
+		<prop:property name="to-x" value="245"/>
+		<prop:property name="to-y" value="364"/>
+		<prop:property name="type" value="straight"/>
+		<prop:property name="from-x" value="245"/>
+		<prop:property name="to-position" value="top"/>
+		<prop:property name="from-position" value="7"/>
+		<prop:property name="from-y" value="344.5"/>
+	</prop:group>
+	<prop:group name="1204071208468-C8b">
+		<prop:property name="to-x" value="405"/>
+		<prop:property name="to-y" value="364"/>
+		<prop:property name="type" value="straight"/>
+		<prop:property name="from-x" value="404"/>
+		<prop:property name="to-position" value="top"/>
+		<prop:property name="from-position" value="86.5"/>
+		<prop:property name="from-y" value="344.5"/>
+	</prop:group>
+	<prop:group name="1204071208609-C9f">
+		<prop:property name="height" value="10"/>
+		<prop:property name="width" value="25"/>
+		<prop:property name="y" value="173"/>
+		<prop:property name="x" value="318.5"/>
+	</prop:group>
+	<prop:group name="1204071133109-C34">
+		<prop:property name="points" value="235.937 507.13248 260.937 550.4337 210.937 550.4337"/>
+	</prop:group>
+	<prop:group name="1206463204593-C13b">
+		<prop:property name="y" value="323.5"/>
+		<prop:property name="x" value="412.52299999999997"/>
+	</prop:group>
+	<prop:group name="1206463469609-C18e">
+		<prop:property name="points" value="442.523 551.13245 467.523 594.4338 417.523 594.4338"/>
+	</prop:group>
+	<prop:group name="1206462777234-C103">
+		<prop:property name="to-x" value="-297"/>
+		<prop:property name="to-y" value="-194"/>
+		<prop:property name="type" value="elbow"/>
+		<prop:property name="from-x" value="-297"/>
+		<prop:property name="from-position" value="left"/>
+		<prop:property name="to-position" value="top"/>
+		<prop:property name="from-y" value="-194"/>
+	</prop:group>
+	<prop:group name="1204071239281-Ca7">
+		<prop:property name="to-x" value="331"/>
+		<prop:property name="to-y" value="507"/>
+		<prop:property name="type" value="straight"/>
+		<prop:property name="from-x" value="331"/>
+		<prop:property name="to-position" value="top"/>
+		<prop:property name="from-position" value="bottom"/>
+		<prop:property name="from-y" value="477.5"/>
+	</prop:group>
+	<prop:group name="1206463469531-C18c">
+		<prop:property name="to-x" value="442.523"/>
+		<prop:property name="to-y" value="551.132"/>
+		<prop:property name="type" value="straight"/>
+		<prop:property name="from-x" value="442.977"/>
+		<prop:property name="from-position" value="bottom"/>
+		<prop:property name="to-position" value="top"/>
+		<prop:property name="from-y" value="522"/>
+	</prop:group>
+	<prop:group name="1206462777890-C119">
+		<prop:property name="y" value="192.5"/>
+		<prop:property name="x" value="402.5"/>
+	</prop:group>
+	<prop:group name="1206462777562-C10e">
+		<prop:property name="to-x" value="95"/>
+		<prop:property name="to-y" value="349.5"/>
+		<prop:property name="type" value="elbow"/>
+		<prop:property name="from-x" value="95"/>
+		<prop:property name="from-position" value="bottom"/>
+		<prop:property name="to-position" value="top,13.457"/>
+		<prop:property name="from-y" value="285.5"/>
+	</prop:group>
+	<prop:group name="1206462777265-C104">
+		<prop:property name="to-x" value="-298"/>
+		<prop:property name="to-y" value="-194"/>
+		<prop:property name="type" value="elbow"/>
+		<prop:property name="from-x" value="-298"/>
+		<prop:property name="from-position" value="bottom,51.395"/>
+		<prop:property name="to-position" value="top"/>
+		<prop:property name="from-y" value="-194"/>
+	</prop:group>
+	<prop:group name="1204071184421-C80">
+		<prop:property name="height" value="10"/>
+		<prop:property name="width" value="25"/>
+		<prop:property name="y" value="405.75"/>
+		<prop:property name="x" value="168.5"/>
+	</prop:group>
+	<prop:group name="1206463469687-C190">
+		<prop:property name="y" value="303.5"/>
+		<prop:property name="x" value="392.52299999999997"/>
+	</prop:group>
+	<prop:group name="1206462570937-Cc1">
+		<prop:property name="y" value="512"/>
+		<prop:property name="x" value="430.477"/>
+	</prop:group>
+	<prop:group name="1206462728031-Cdb">
+		<prop:property name="to-x" value="223"/>
+		<prop:property name="to-y" value="698.133"/>
+		<prop:property name="type" value="elbow"/>
+		<prop:property name="from-x" value="223"/>
+		<prop:property name="from-position" value="bottom"/>
+		<prop:property name="to-position" value="top"/>
+		<prop:property name="from-y" value="662"/>
+	</prop:group>
+	<prop:group name="1206463469453-C18a">
+		<prop:property name="to-x" value="442.523"/>
+		<prop:property name="to-y" value="425.5"/>
+		<prop:property name="type" value="straight"/>
+		<prop:property name="from-x" value="442.977"/>
+		<prop:property name="from-position" value="bottom"/>
+		<prop:property name="to-position" value="top"/>
+		<prop:property name="from-y" value="399"/>
+	</prop:group>
+	<prop:group name="1206462777718-C113">
+		<prop:property name="points" value="94.0 474.1325 119.0 517.4338 69.0 517.4338"/>
+	</prop:group>
+	<prop:group name="1206462728140-Cdf">
+		<prop:property name="to-x" value="-168"/>
+		<prop:property name="to-y" value="37"/>
+		<prop:property name="type" value="elbow"/>
+		<prop:property name="from-x" value="-168"/>
+		<prop:property name="from-position" value="bottom"/>
+		<prop:property name="to-position" value="top"/>
+		<prop:property name="from-y" value="37"/>
+	</prop:group>
+	<prop:group name="1204071262484-Ca8">
+		<prop:property name="to-x" value="331"/>
+		<prop:property name="to-y" value="624"/>
+		<prop:property name="type" value="straight"/>
+		<prop:property name="from-x" value="331"/>
+		<prop:property name="to-position" value="top"/>
+		<prop:property name="from-position" value="bottom"/>
+		<prop:property name="from-y" value="599"/>
+	</prop:group>
+	<prop:group name="1206463428687-C180">
+		<prop:property name="type" value="straight"/>
+		<prop:property name="to-position" value="top"/>
+		<prop:property name="from-position" value="bottom"/>
+	</prop:group>
+	<prop:group name="1204071184421-C7d">
+		<prop:property name="height" value="10"/>
+		<prop:property name="width" value="25"/>
+		<prop:property name="y" value="405.75"/>
+		<prop:property name="x" value="535.5"/>
+	</prop:group>
+	<prop:group name="1204071184421-C7e">
+		<prop:property name="height" value="10"/>
+		<prop:property name="width" value="25"/>
+		<prop:property name="y" value="405.75"/>
+		<prop:property name="x" value="414.5"/>
+	</prop:group>
+	<prop:group name="1202243362515-Ca">
+		<prop:property name="to-x" value="276"/>
+		<prop:property name="to-y" value="225.5"/>
+		<prop:property name="from-x" value="277.0"/>
+		<prop:property name="type" value="elbow"/>
+		<prop:property name="from-position" value="bottom"/>
+		<prop:property name="to-position" value="top"/>
+		<prop:property name="from-y" value="161.86751"/>
+	</prop:group>
+	<prop:group name="1204071273921-Ca9">
+		<prop:property name="to-x" value="331"/>
+		<prop:property name="to-y" value="538"/>
+		<prop:property name="type" value="straight"/>
+		<prop:property name="from-x" value="331"/>
+		<prop:property name="to-position" value="top"/>
+		<prop:property name="from-position" value="bottom"/>
+		<prop:property name="from-y" value="517"/>
+	</prop:group>
+	<prop:group name="1206463369421-C17c">
+		<prop:property name="height" value="10"/>
+		<prop:property name="width" value="25"/>
+		<prop:property name="y" value="175"/>
+		<prop:property name="x" value="246.75"/>
+	</prop:group>
+	<prop:group name="1206464325390-C1dc">
+		<prop:property name="y" value="505"/>
+		<prop:property name="x" value="273.477"/>
+	</prop:group>
+	<prop:group name="1202243462546-C11">
+		<prop:property name="to-x" value="282"/>
+		<prop:property name="to-y" value="574.13245"/>
+		<prop:property name="from-x" value="276.5"/>
+		<prop:property name="type" value="straight"/>
+		<prop:property name="from-position" value="bottom"/>
+		<prop:property name="to-position" value="bottom"/>
+		<prop:property name="from-y" value="393"/>
+	</prop:group>
+	<prop:group name="1204071184421-C7f">
+		<prop:property name="height" value="10"/>
+		<prop:property name="width" value="25"/>
+		<prop:property name="y" value="405.75"/>
+		<prop:property name="x" value="286.5"/>
+	</prop:group>
+	<prop:group name="1206463131484-C12b">
+		<prop:property name="type" value="straight"/>
+		<prop:property name="to-position" value="top"/>
+		<prop:property name="from-position" value="bottom"/>
+	</prop:group>
+	<prop:group name="1206464045015-C1c0">
+		<prop:property name="y" value="157.4337615966797"/>
+		<prop:property name="x" value="216.95399999999995"/>
+	</prop:group>
+	<prop:group name="1204075408343-Cc1">
+		<prop:property name="to-x" value="357"/>
+		<prop:property name="to-y" value="274"/>
+		<prop:property name="type" value="straight"/>
+		<prop:property name="from-x" value="357"/>
+		<prop:property name="to-position" value="top"/>
+		<prop:property name="from-position" value="bottom"/>
+		<prop:property name="from-y" value="251.5"/>
+	</prop:group>
+	<prop:group name="1204075353125-Cb5">
+		<prop:property name="height" value="61"/>
+		<prop:property name="width" value="100"/>
+		<prop:property name="y" value="116.5"/>
+		<prop:property name="x" value="307"/>
+	</prop:group>
+	<prop:group name="1206462570593-Cb5">
+		<prop:property name="to-x" value="442.523"/>
+		<prop:property name="to-y" value="303.5"/>
+		<prop:property name="type" value="straight"/>
+		<prop:property name="from-x" value="442.977"/>
+		<prop:property name="from-position" value="bottom"/>
+		<prop:property name="to-position" value="top"/>
+		<prop:property name="from-y" value="280"/>
+	</prop:group>
+	<prop:group name="1206463811390-C1a0">
+		<prop:property name="height" value="10"/>
+		<prop:property name="width" value="25"/>
+		<prop:property name="y" value="406.75"/>
+		<prop:property name="x" value="666.5"/>
+	</prop:group>
+	<prop:group name="1206464325015-C1d5">
+		<prop:property name="points" value="260.523 100.56625 310.523 100.56625 285.523 143.86751"/>
+	</prop:group>
+	<prop:group name="1206462777203-C102">
+		<prop:property name="to-x" value="-297"/>
+		<prop:property name="to-y" value="-194"/>
+		<prop:property name="type" value="elbow"/>
+		<prop:property name="from-x" value="-297"/>
+		<prop:property name="from-position" value="left"/>
+		<prop:property name="to-position" value="top"/>
+		<prop:property name="from-y" value="-194"/>
+	</prop:group>
+	<prop:group name="1206460909437-C38">
+		<prop:property name="to-x" value="-281"/>
+		<prop:property name="to-y" value="4"/>
+		<prop:property name="from-x" value="-281"/>
+		<prop:property name="type" value="elbow"/>
+		<prop:property name="to-position" value="top"/>
+		<prop:property name="from-position" value="left"/>
+		<prop:property name="from-y" value="4"/>
+	</prop:group>
+	<prop:group name="1206464044625-C1b8">
+		<prop:property name="points" value="204.0 71.0 254.0 71.0 229.0 114.30127"/>
+	</prop:group>
+	<prop:group name="1206461625343-C52">
+		<prop:property name="to-x" value="-281"/>
+		<prop:property name="to-y" value="-1"/>
+		<prop:property name="type" value="elbow"/>
+		<prop:property name="from-x" value="-281"/>
+		<prop:property name="to-position" value="top,13.457"/>
+		<prop:property name="from-position" value="bottom"/>
+		<prop:property name="from-y" value="-1"/>
+	</prop:group>
+	<prop:group name="1206460944093-C3b">
+		<prop:property name="to-x" value="-282"/>
+		<prop:property name="to-y" value="4"/>
+		<prop:property name="from-x" value="-282"/>
+		<prop:property name="type" value="elbow"/>
+		<prop:property name="to-position" value="top"/>
+		<prop:property name="from-position" value="bottom,51.395"/>
+		<prop:property name="from-y" value="4"/>
+	</prop:group>
+	<prop:group name="1206462360203-Ca1">
+		<prop:property name="y" value="250"/>
+		<prop:property name="x" value="410.477"/>
+	</prop:group>
+	<prop:group name="1206464666312-C1eb">
+		<prop:property name="type" value="straight"/>
+		<prop:property name="to-position" value="top"/>
+		<prop:property name="from-position" value="bottom"/>
+	</prop:group>
+	<prop:group name="1206463469500-C18b">
+		<prop:property name="to-x" value="442.977"/>
+		<prop:property name="to-y" value="512"/>
+		<prop:property name="type" value="straight"/>
+		<prop:property name="from-x" value="442.523"/>
+		<prop:property name="from-position" value="bottom"/>
+		<prop:property name="to-position" value="top"/>
+		<prop:property name="from-y" value="486.5"/>
+	</prop:group>
+	<prop:group name="1206460711234-C27">
+		<prop:property name="height" value="15"/>
+		<prop:property name="width" value="430"/>
+		<prop:property name="y" value="327.5"/>
+		<prop:property name="x" value="52"/>
+	</prop:group>
+	<prop:group name="1206461011781-C45">
+		<prop:property name="to-x" value="-281"/>
+		<prop:property name="to-y" value="12"/>
+		<prop:property name="from-x" value="-281"/>
+		<prop:property name="type" value="elbow"/>
+		<prop:property name="to-position" value="top"/>
+		<prop:property name="from-position" value="bottom"/>
+		<prop:property name="from-y" value="12"/>
+	</prop:group>
+	<prop:group name="1202243309812-C2">
+		<prop:property name="points" value="251.5 156.56625 301.5 156.56625 276.5 199.86751"/>
+	</prop:group>
+	<prop:group name="1206463204484-C138">
+		<prop:property name="points" value="437.523 127.566246 487.523 127.566246 462.523 170.86751"/>
+	</prop:group>
+	<prop:group name="1206463469734-C191">
+		<prop:property name="y" value="425.5"/>
+		<prop:property name="x" value="392.52299999999997"/>
+	</prop:group>
+	<prop:group name="1206462777500-C10c">
+		<prop:property name="to-x" value="-297"/>
+		<prop:property name="to-y" value="-197"/>
+		<prop:property name="type" value="elbow"/>
+		<prop:property name="from-x" value="-297"/>
+		<prop:property name="from-position" value="bottom"/>
+		<prop:property name="to-position" value="top"/>
+		<prop:property name="from-y" value="-197"/>
+	</prop:group>
+	<prop:group name="1206460794734-C2e">
+		<prop:property name="height" value="15"/>
+		<prop:property name="width" value="431"/>
+		<prop:property name="y" value="547.5"/>
+		<prop:property name="x" value="53"/>
+	</prop:group>
+	<prop:group name="1204071208546-C95">
+		<prop:property name="y" value="653"/>
+		<prop:property name="x" value="282"/>
+	</prop:group>
+	<prop:group name="1204071208546-C96">
+		<prop:property name="y" value="364"/>
+		<prop:property name="x" value="355"/>
+	</prop:group>
+	<prop:group name="1204071332234-Cae">
+		<prop:property name="to-x" value="405"/>
+		<prop:property name="to-y" value="439"/>
+		<prop:property name="type" value="straight"/>
+		<prop:property name="from-x" value="405"/>
+		<prop:property name="to-position" value="top"/>
+		<prop:property name="from-position" value="bottom"/>
+		<prop:property name="from-y" value="425"/>
+	</prop:group>
+	<prop:group name="1204071184296-C5c">
+		<prop:property name="height" value="10"/>
+		<prop:property name="width" value="25"/>
+		<prop:property name="y" value="515"/>
+		<prop:property name="x" value="246.75"/>
+	</prop:group>
+	<prop:group name="1206464645968-C1e5">
+		<prop:property name="y" value="320"/>
+		<prop:property name="x" value="222.891"/>
+	</prop:group>
+	<prop:group name="1206463070015-C129">
+		<prop:property name="type" value="straight"/>
+		<prop:property name="to-position" value="top"/>
+		<prop:property name="from-position" value="bottom"/>
+	</prop:group>
+	<prop:group name="1206461690203-C55">
+		<prop:property name="to-x" value="-280"/>
+		<prop:property name="to-y" value="0"/>
+		<prop:property name="from-x" value="-280"/>
+		<prop:property name="type" value="elbow"/>
+		<prop:property name="to-position" value="top"/>
+		<prop:property name="from-position" value="bottom,13.721"/>
+		<prop:property name="from-y" value="0"/>
+	</prop:group>
+	<prop:group name="1206463469859-C194">
+		<prop:property name="y" value="512"/>
+		<prop:property name="x" value="430.477"/>
+	</prop:group>
+	<prop:group name="1206461177109-C51">
+		<prop:property name="to-x" value="-281"/>
+		<prop:property name="to-y" value="4"/>
+		<prop:property name="from-x" value="-281"/>
+		<prop:property name="type" value="elbow"/>
+		<prop:property name="to-position" value="top"/>
+		<prop:property name="from-position" value="bottom"/>
+		<prop:property name="from-y" value="4"/>
+	</prop:group>
+	<prop:group name="1206462728656-Cf0">
+		<prop:property name="y" value="303"/>
+		<prop:property name="x" value="202.954"/>
+	</prop:group>
+	<prop:group name="1206461061265-C4d">
+		<prop:property name="to-x" value="-281"/>
+		<prop:property name="to-y" value="-1"/>
+		<prop:property name="type" value="elbow"/>
+		<prop:property name="from-x" value="-281"/>
+		<prop:property name="to-position" value="top"/>
+		<prop:property name="from-position" value="bottom"/>
+		<prop:property name="from-y" value="-1"/>
+	</prop:group>
+	<prop:group name="1206462728296-Ce4">
+		<prop:property name="to-x" value="544"/>
+		<prop:property name="to-y" value="573.5"/>
+		<prop:property name="type" value="elbow"/>
+		<prop:property name="from-x" value="544"/>
+		<prop:property name="from-position" value="bottom"/>
+		<prop:property name="to-position" value="top,87.703"/>
+		<prop:property name="from-y" value="509.5"/>
+	</prop:group>
+	<prop:group name="1206461639796-C54">
+		<prop:property name="to-x" value="-281"/>
+		<prop:property name="to-y" value="-1"/>
+		<prop:property name="type" value="elbow"/>
+		<prop:property name="from-x" value="-281"/>
+		<prop:property name="to-position" value="top,87.703"/>
+		<prop:property name="from-position" value="bottom"/>
+		<prop:property name="from-y" value="-1"/>
+	</prop:group>
+	<prop:group name="1206460630984-C22">
+		<prop:property name="y" value="422.5"/>
+		<prop:property name="x" value="223"/>
+	</prop:group>
+	<prop:group name="1206463469296-C186">
+		<prop:property name="to-x" value="442.523"/>
+		<prop:property name="to-y" value="184.5"/>
+		<prop:property name="type" value="straight"/>
+		<prop:property name="from-x" value="442.523"/>
+		<prop:property name="from-position" value="bottom"/>
+		<prop:property name="to-position" value="top"/>
+		<prop:property name="from-y" value="150.868"/>
+	</prop:group>
+</prop:properties>

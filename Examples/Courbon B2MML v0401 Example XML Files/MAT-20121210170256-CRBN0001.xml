@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SyncMaterialDefinition releaseID="" xmlns="http://www.wbf.org/xml/B2MML-V0401" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ApplicationArea>
+    <Sender>
+      <LogicalID>DEV130</LogicalID>
+    </Sender>
+    <CreationDateTime>2012-12-10T17:02:56.0Z</CreationDateTime>
+  </ApplicationArea>
+  <DataArea>
+    <Sync />
+    <MaterialDefinition>
+      <ID>CRBN0001</ID>
+      <Description languageID="Z">Product Courbon0001</Description>
+      <MaterialDefinitionProperty>
+        <ID>BaseUnitOfMeasure</ID>
+        <Value>
+          <ValueString>KG</ValueString>
+          <DataType>Text</DataType>
+          <UnitOfMeasure></UnitOfMeasure>
+        </Value>
+      </MaterialDefinitionProperty>
+      <MaterialDefinitionProperty>
+        <ID>HazardousMaterialWarning</ID>
+        <Value>
+          <ValueString>C</ValueString>
+          <DataType>Text</DataType>
+          <UnitOfMeasure></UnitOfMeasure>
+        </Value>
+        <Value>
+          <ValueString>XN</ValueString>
+          <DataType>Text</DataType>
+          <UnitOfMeasure></UnitOfMeasure>
+        </Value>
+      </MaterialDefinitionProperty>
+    </MaterialDefinition>
+  </DataArea>
+</SyncMaterialDefinition>

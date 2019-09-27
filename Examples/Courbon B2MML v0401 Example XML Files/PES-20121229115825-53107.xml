@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SyncProductionPerformance xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.wbf.org/xml/B2MML-V0401">
+  <ApplicationArea>
+    <CreationDateTime>2012-11-29T11:58:25.3149559+01:00</CreationDateTime>
+  </ApplicationArea>
+  <DataArea>
+    <Sync />
+    <ProductionPerformance>
+      <ProductionResponse>
+        <ID>53107</ID>
+        <SegmentResponse>
+          <ID>Weighing</ID>
+          <MaterialActual>
+            <MaterialDefinitionID>CRBN0001</MaterialDefinitionID>
+            <MaterialLotID>CRBN0001_LOT01</MaterialLotID>
+            <MaterialSubLotID>430147330000056734</MaterialSubLotID>
+            <MaterialUse>Consumed</MaterialUse>
+            <Quantity>
+              <QuantityString>0.41</QuantityString>
+              <DataType>decimal</DataType>
+              <UnitOfMeasure>KG</UnitOfMeasure>
+            </Quantity>
+            <MaterialActualProperty>
+              <ID>EmptyFlag</ID>
+              <Value>
+                <ValueString>0</ValueString>
+                <DataType>string</DataType>
+                <UnitOfMeasure></UnitOfMeasure>
+              </Value>
+            </MaterialActualProperty>
+            <MaterialActualProperty>
+              <ID>Indice</ID>
+              <Value>
+                <ValueString>0010</ValueString>
+                <DataType>string</DataType>
+                <UnitOfMeasure></UnitOfMeasure>
+              </Value>
+            </MaterialActualProperty>
+            <MaterialActualProperty>
+              <ID>CompleteFlag</ID>
+              <Value>
+                <ValueString>0</ValueString>
+                <DataType>string</DataType>
+                <UnitOfMeasure></UnitOfMeasure>
+              </Value>
+            </MaterialActualProperty>
+          </MaterialActual>
+        </SegmentResponse>
+      </ProductionResponse>
+    </ProductionPerformance>
+  </DataArea>
+</SyncProductionPerformance>

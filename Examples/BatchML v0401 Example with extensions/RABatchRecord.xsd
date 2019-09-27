@@ -1,0 +1,267 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+	       targetNamespace="http://www.wbf.org/xml/B2MML-V0401"
+	       xmlns="http://www.wbf.org/xml/B2MML-V0401"
+           xmlns:RAExtended = "http://www.wbf.org/xml/RABatchRecordExtensions"
+	       elementFormDefault="qualified"
+	       attributeFormDefault="unqualified">
+
+	<!--
+		Import the B2MML Extension Schema and pickup the BatchML Information
+		Extensions
+	-->
+
+	<!-- Include the Common schema   -->
+	<xsd:include schemaLocation="B2MML-V0401-Common.xsd" />
+	<xsd:include schemaLocation="B2MML-V0401-CoreComponents.xsd" />
+    <xsd:include schemaLocation="BatchML-V0401-BatchInformation.xsd" />
+
+<!-- Import the RA Extension Schema                 -->
+
+    <xsd:import namespace ="http://www.wbf.org/xml/RABatchRecordExtensions"
+                schemaLocation ="RABatchRecordExtensions.xsd"/>
+
+	<xsd:annotation>
+		<xsd:documentation>
+			Based upon B2MML/BatchML, ISA-S88.01-1995 Batch Control Part 1:
+			Models and Terminology Standard, and the ANSI/ISA-88.00.04-2006
+			Batch Control Part 4: Batch Production Records
+   		</xsd:documentation>
+		<xsd:documentation>
+			Revision History
+
+			Ver Date Person Note
+			--- ---- ------
+			----
+			V01 21 Apr 2010 S. Braun Initial version
+
+  		</xsd:documentation>
+	</xsd:annotation>
+
+    <xsd:complexType name="BatchProductionRecordsType">
+        <xsd:sequence>
+            <xsd:element name="BatchProductionRecord" type="BatchProductionRecordType" minOccurs="0" maxOccurs="unbounded"/>
+        </xsd:sequence>
+    </xsd:complexType>
+
+	<xsd:complexType name="BatchProductionRecordType">
+		<xsd:complexContent>
+			<xsd:extension base="BatchProductionRecordEntryType">
+				<xsd:sequence>
+					<xsd:element name="Header" type="BatchProductionRecordHeaderType" minOccurs="1" maxOccurs="1"/>
+					<xsd:element name="ExecutedControlRecipes" type="ExecutedControlRecipesType" minOccurs="0" maxOccurs="1"/>
+					<xsd:element name="Events" type="EventsType" minOccurs="0" maxOccurs="1"/>
+					<xsd:element name="Comments" type="CommentsType" minOccurs="0" maxOccurs="1"/>
+					<xsd:element name="PersonnelIdentifications" type="PersonnelIdentificationsType" minOccurs="0" maxOccurs="1"/>
+					<xsd:element name="BatchProductionRecords" type="BatchProductionRecordsType" minOccurs="0" maxOccurs="1"/>
+					<xsd:group   ref ="RAExtended:BatchProductionRecord" minOccurs="0" maxOccurs="1"/>
+				</xsd:sequence>
+			</xsd:extension>
+		</xsd:complexContent>
+	</xsd:complexType>
+
+    <xsd:complexType name="ExecutedControlRecipesType">
+        <xsd:sequence>
+            <xsd:element name="ExecutedControlRecipe" type="ExecutedControlRecipeType" minOccurs="0" maxOccurs="unbounded"/>
+        </xsd:sequence>
+    </xsd:complexType>
+
+    <xsd:complexType name="ExecutedControlRecipeType">
+        <xsd:complexContent>
+            <xsd:extension base="BatchProductionRecordEntryType">
+                <xsd:sequence>
+				    <xsd:element name="Version" type = "VersionType" minOccurs = "0"/>
+				    <xsd:element name="VersionDate" type = "VersionDateType" minOccurs = "0"/>
+				    <xsd:element name="BatchID" type = "BatchIDType" minOccurs = "0"/>
+				    <xsd:element name="Header" type = "HeaderType" minOccurs = "0"/>
+				    <xsd:element name="EquipmentRequirement" type = "BatchEquipmentRequirementType" minOccurs = "0" maxOccurs = "unbounded"/>
+				    <xsd:element name="Formula" type = "FormulaType" minOccurs = "0"/>
+				    <xsd:element name="ProcedureLogic" type = "ProcedureLogicType" minOccurs = "0"/>
+				    <xsd:element name="RecipeElement" type = "RecipeElementType" minOccurs = "0" maxOccurs = "unbounded"/>
+				    <xsd:element name="OtherInformation" type = "OtherInformationType" minOccurs = "0" maxOccurs = "unbounded"/>
+                    <xsd:element name="RuntimeRecipeElement" type="RuntimeRecipeElementType" minOccurs="0" maxOccurs="unbounded"/>
+                    <xsd:group   ref ="RAExtended:ExecutedControlRecipe" minOccurs="0" maxOccurs="1"/>
+                </xsd:sequence>
+            </xsd:extension>
+        </xsd:complexContent>
+    </xsd:complexType>
+
+    <xsd:complexType name="RuntimeRecipeElementType">
+        <xsd:complexContent>
+            <xsd:extension base="BatchProductionRecordEntryType">
+		        <xsd:sequence>
+			       <xsd:element name="Version" type = "VersionType" minOccurs = "0"/>
+			       <xsd:element name="VersionDate" type = "VersionDateType" minOccurs = "0"/>
+			       <xsd:element name="RecipeElementType" type = "RecipeElementTypeType" />
+			       <xsd:element name="BuildingBlockElementID" type = "BuildingBlockElementIDType" minOccurs = "0"/>
+			       <xsd:element name="BuildingBlockElementVersion" type = "BuildingBlockElementVersionType"  minOccurs = "0"/>
+			       <xsd:element name="ActualEquipmentID"  type = "ActualEquipmentIDType" minOccurs = "0" maxOccurs = "unbounded"/>
+			       <xsd:element name="Header" type = "HeaderType" minOccurs = "0"/>
+			       <xsd:element name="EquipmentRequirement" type = "BatchEquipmentRequirementType" minOccurs = "0" maxOccurs = "unbounded"/>
+			       <xsd:element name="Parameter" type = "BatchParameterType" minOccurs = "0" maxOccurs = "unbounded"/>
+			       <xsd:element name="ProcedureLogic" type = "ProcedureLogicType" minOccurs = "0"/>
+			       <xsd:element name="RecipeElement" type = "RecipeElementType" minOccurs = "0" maxOccurs = "unbounded"/>
+			       <xsd:element name="OtherInformation" type = "OtherInformationType" minOccurs = "0" maxOccurs = "unbounded"/>
+		           <xsd:element name="CompletionTime" type="DateTimeType" minOccurs="0" maxOccurs="1"/>
+		           <xsd:element name="Performer" type="xsd:string" minOccurs="0" maxOccurs="1"/>
+		           <xsd:element name="InstanceCount" type="xsd:int" minOccurs="0" maxOccurs="1"/>
+		           <xsd:element name="RuntimeRecipeElement" type="RuntimeRecipeElementType" minOccurs="0" maxOccurs="unbounded"/>
+		           <xsd:group   ref ="RAExtended:RuntimeRecipeElement" minOccurs="0" maxOccurs="1"/>
+		        </xsd:sequence>
+            </xsd:extension>
+        </xsd:complexContent>
+    </xsd:complexType>
+
+    <xsd:complexType name="EventsType">
+        <xsd:sequence>
+            <xsd:element name="Event" type="EventType"
+                         minOccurs="0" maxOccurs="unbounded"/>
+        </xsd:sequence>
+    </xsd:complexType>
+
+    <xsd:complexType name="EventType">
+        <xsd:complexContent>
+            <xsd:extension base="BatchProductionRecordEntryType">
+                <xsd:sequence>
+                    <xsd:element name="EventType" type="xsd:string" minOccurs="1" maxOccurs="1"/>  <!-- TASK: enumeration? -->
+                    <xsd:element name="EventSubType" type="EventSubTypeType" minOccurs="1" maxOccurs="1"/>  <!-- TASK: enumeration? -->
+                    <xsd:element name="EquipmentID" type="xsd:string" minOccurs="0" maxOccurs="unbounded"/>
+                    <xsd:element name="Value" type="ValueType" minOccurs="0" maxOccurs="1"/>
+                    <xsd:element name="PreviousValue" type="ValueType" minOccurs="0" maxOccurs="1"/>
+                    <xsd:element name="MessageText" type="MessageType" minOccurs="0" maxOccurs="1"/>
+                    <xsd:element name="ComputerID" type="xsd:string" minOccurs="1" maxOccurs="1"/>
+                    <xsd:element name="PersonID" type="PersonIDType" minOccurs="0" maxOccurs="unbounded"/>
+                    <xsd:element name="ProceduralElementReference" type="DataReferenceType"/>
+                    <xsd:element name="Category" type="xsd:string"/>  <!-- TASK: enumeration? -->
+                    <xsd:element name="EventAssociation" type="EventAssociationType" minOccurs="0" maxOccurs="unbounded"/>
+                    <xsd:group   ref ="RAExtended:Event" minOccurs="0" maxOccurs="1"/>
+                </xsd:sequence>
+            </xsd:extension>
+        </xsd:complexContent>
+    </xsd:complexType>
+
+    <xsd:complexType name="EventSubTypeType">
+        <xsd:simpleContent>
+            <xsd:extension base="xsd:string"/>
+        </xsd:simpleContent>
+    </xsd:complexType>
+
+    <xsd:complexType name="ExceptionSubTypeType">
+        <xsd:simpleContent>
+            <xsd:extension base="EventSubTypeType">
+                <xsd:attribute name="Risk" type="xsd:string" use="required"/>  <!-- TASK: enumeration? -->
+                <xsd:attribute name="Status" type="xsd:string" use="required"/>  <!-- TASK: enumeration? -->
+           </xsd:extension>
+        </xsd:simpleContent>
+    </xsd:complexType>
+
+    <xsd:complexType name="CommentsType">
+     	<xsd:sequence>
+    		<xsd:element name="Comment" type="CommentType" minOccurs="0" maxOccurs="unbounded"/>
+    	</xsd:sequence>
+    </xsd:complexType>
+
+    <xsd:complexType name="CommentType">
+		<xsd:complexContent>
+			<xsd:extension base="BatchProductionRecordEntryType">
+		    	<xsd:sequence>
+		    		<xsd:element name="TargetID" type="DataReferenceType" minOccurs="0" maxOccurs="1"/>
+		    		<xsd:element name="PersonID" type="PersonIDType" minOccurs="1" maxOccurs="1"/>
+		    		<xsd:element name="CommentText" type="xsd:string" minOccurs="1" maxOccurs="1"/>
+					<xsd:element name="RecommendedEventRisk" type="xsd:string" minOccurs="0" maxOccurs="1"/>  <!-- TASK: enumeration? Specific for exception comments :-( -->
+					<xsd:element name="RecommendedEventStatus" type="xsd:string" minOccurs="0" maxOccurs="1"/>  <!-- TASK: enumeration? Specific for exception comments :-( -->
+                    <xsd:group   ref ="RAExtended:Comment" minOccurs="0" maxOccurs="1"/>
+		    	</xsd:sequence>
+			</xsd:extension>
+		</xsd:complexContent>
+    </xsd:complexType>
+
+    <xsd:complexType name="MessageType">
+        <xsd:simpleContent>
+            <xsd:extension base="TextType">
+            </xsd:extension>
+        </xsd:simpleContent>
+    </xsd:complexType>
+
+    <xsd:complexType name="PersonnelIdentificationsType">
+    	<xsd:sequence>
+    		<xsd:element name="PersonnelIdentification" type="PersonnelIdentificationType" minOccurs="0" maxOccurs="unbounded"/>
+    	</xsd:sequence>
+    </xsd:complexType>
+
+    <xsd:complexType name="PersonnelIdentificationType">
+		<xsd:complexContent>
+			<xsd:extension base="BatchProductionRecordEntryType">
+				<xsd:sequence>
+					<xsd:element name="ReferencedElement" type="DataReferenceType" minOccurs="1" maxOccurs="1"/>
+					<xsd:element name="PersonName" type="PersonNameType" minOccurs="1" maxOccurs="1"/>
+					<xsd:element name="Reason" type="ReasonType"  minOccurs="1" maxOccurs="1"/> <!-- TASK: enumeration? -->
+					<xsd:group   ref = "RAExtended:PersonnelIdentification" minOccurs="0" maxOccurs="1"/>
+				</xsd:sequence>
+			</xsd:extension>
+		</xsd:complexContent>
+    </xsd:complexType>
+
+    <xsd:complexType name="DataReferenceType">
+        <xsd:simpleContent>
+            <xsd:extension base="IdentifierType">
+                <xsd:attribute name="targetAttribute" type="xsd:string" use="optional" />
+            </xsd:extension>
+        </xsd:simpleContent>
+    </xsd:complexType>
+
+    <xsd:complexType name="EventAssociationType">
+        <xsd:simpleContent>
+            <xsd:extension base="IdentifierType">
+                <xsd:attribute name="association" type="xsd:string" use="optional" />
+            </xsd:extension>
+        </xsd:simpleContent>
+    </xsd:complexType>
+
+    <xsd:complexType name="ExceptionType">
+        <xsd:sequence>
+            <xsd:element name="Risk" type="xsd:string" minOccurs="1" maxOccurs="1"/>  <!-- TASK: enumeration? -->
+            <xsd:element name="Status" type="xsd:string" minOccurs="1" maxOccurs="1"/>  <!-- TASK: enumeration? -->
+        </xsd:sequence>
+    </xsd:complexType>
+
+	<xsd:complexType name = "BatchProductionRecordSpecificationIDType">
+		<xsd:simpleContent>
+			<xsd:restriction base="IdentifierType"/>
+		</xsd:simpleContent>
+	</xsd:complexType>
+
+    <xsd:complexType name="BatchProductionRecordEntryType">
+   	<xsd:sequence>
+    		<xsd:element name="ID" type="IdentifierType" minOccurs="1" maxOccurs="1"/>
+    		<xsd:element name="Description" type="DescriptionType" minOccurs="0" maxOccurs="1"/>
+    		<xsd:element name="ExternalReference" type="xsd:string" minOccurs="0" maxOccurs="unbounded"/>
+    		<xsd:element name="ObjectType" type="xsd:string" minOccurs="1" maxOccurs="1"/>   <!-- TASK: enumeration? -->
+            <xsd:element name="TimeStamp" type="DateTimeType" minOccurs="0" maxOccurs="1"/>
+    	</xsd:sequence>
+    </xsd:complexType>
+
+    <xsd:complexType name="BatchProductionRecordHeaderType">
+		<xsd:sequence>
+    		<xsd:element name="EquipmentScope" type="xsd:string" minOccurs="0" maxOccurs="1"/>
+    		<xsd:element name="CreationDate" type="DateTimeType" minOccurs="1" maxOccurs="1"/>
+    		<xsd:element name="LastChangedDate" type="DateTimeType" minOccurs="1" maxOccurs="1"/>
+    		<xsd:element name="ChangeIndication" type="xsd:string" minOccurs="0" maxOccurs="1"/>
+    		<xsd:element name="RecordStatus" type="xsd:string" minOccurs="0" maxOccurs="1"/>  <!-- TASK: enumeration? -->
+    		<xsd:element name="BatchProductionRecordSpecificationID" type="BatchProductionRecordSpecificationIDType" minOccurs="0" maxOccurs="1"/>
+    		<xsd:element name="ExpirationDate" type="DateTimeType" minOccurs="0" maxOccurs="1"/>
+    		<xsd:element name="Version" type="VersionType" minOccurs="0" maxOccurs="1"/>
+    		<xsd:element name="CampaignID" type="CampaignIDType" minOccurs="0" maxOccurs="1"/>
+    		<xsd:element name="LotID" type="LotIDType" minOccurs="0" maxOccurs="1"/>
+    		<xsd:element name="BatchID" type="BatchIDType" minOccurs="0" maxOccurs="1"/>
+    		<xsd:element name="MaterialDefinitionID" type="MaterialDefinitionIDType" minOccurs="0" maxOccurs="1"/>
+    		<xsd:element name="EquipmentID" type="EquipmentIDType" minOccurs="0" maxOccurs="1"/>
+    		<xsd:element name="Delimiter" type="xsd:string" minOccurs="0" maxOccurs="1"/>
+    		<xsd:element name="Language" type="xsd:string" minOccurs="0" maxOccurs="1"/>
+		</xsd:sequence>
+    </xsd:complexType>
+
+    <xsd:element name="BatchProductionRecord" type="BatchProductionRecordType"/>
+
+</xsd:schema>

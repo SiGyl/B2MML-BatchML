@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SyncMaterialInformation releaseID="" xmlns="http://www.wbf.org/xml/B2MML-V0401" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ApplicationArea>
+    <Sender>
+      <LogicalID>DEV130</LogicalID>
+    </Sender>
+    <CreationDateTime>2012-12-10T17:55:54.0Z</CreationDateTime>
+  </ApplicationArea>
+  <DataArea>
+    <Sync />
+    <MaterialInformation>
+      <ID>CRBN0001</ID>
+      <MaterialLot>
+        <ID>CRBN0001_LOT01</ID>
+        <MaterialSubLot>
+          <ID>CRBN0001_LOT01_01</ID>
+          <Status>NotValid</Status>
+          <Quantity>
+            <QuantityString>24.910</QuantityString>
+            <DataType>decimal</DataType>
+            <UnitOfMeasure>KG</UnitOfMeasure>
+          </Quantity>
+        </MaterialSubLot>
+      </MaterialLot>
+    </MaterialInformation>
+  </DataArea>
+</SyncMaterialInformation>
