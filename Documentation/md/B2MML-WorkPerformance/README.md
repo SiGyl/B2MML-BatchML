@@ -8,6 +8,8 @@ The Business To Manufacturing Markup Language (B2MML) is used courtesy of MESA I
 
 ## Schema Scope
 
+[B2MML-WorkPerformance.xsd](../../../Schema/B2MML-WorkPerformance.xsd)
+
 This document defines the information about Work Performance information.
 
 This information is based on the data models and attributes defined in the ANSI/ISA 95.00.02 Enterprise/Control System Integration standard.

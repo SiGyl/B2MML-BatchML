@@ -8,6 +8,8 @@ The Business To Manufacturing Markup Language (B2MML) is used courtesy of MESA I
 
 ## Schema Scope
 
+[B2MML-OperationsSchedule.xsd](../../../Schema/B2MML-OperationsSchedule.xsd)
+
 This document defines the information about the definition of operations information that may be exchanged between business systems and manufacturing operations systems.
 
 This information is based on the data models and attributes defined in the ANSI/ISA 95.00.02 Enterprise/Control System Integration standard.

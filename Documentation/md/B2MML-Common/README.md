@@ -8,6 +8,8 @@ The Business To Manufacturing Markup Language (B2MML) is used courtesy of MESA I
 
 ## Schema Scope
 
+[B2MML-Common.xsd](../../../Schema/B2MML-Common.xsd)
+
 This document defines the information that is used in common by B2MML personnel, equipment, materials, maintenance, capabilities, product definition, production schedule, and production performance schemas.
 
 This information is based on the data models and attributes defined in the ANSI/ISA 95 Enterprise/Control System Integration standard. Contact ISA (The Instrumentation, System, and Automation Society) for copies of the standard. Additional information on the standard is available at www.isa.org. 

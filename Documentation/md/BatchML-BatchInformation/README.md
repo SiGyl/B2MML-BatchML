@@ -8,6 +8,8 @@ The Business To Manufacturing Markup Language (B2MML) is used courtesy of MESA I
 
 ## Schema Scope
 
+[BatchML-BatchInformation.xsd](../../../Schema/BatchML-BatchInformation.xsd)
+
 This document provides explanatory information about the referenced MESA XML schemas used to exchange information about recipes, equipment, and batch lists, called the Batch Markup Language, or BatchML.  
 
 This information is based on the data models and attributes defined in the ANSI/ISA 88.00.02 Batch Control standard Part 2. Contact ISA (The Instrumentation, Systems, and Automation Society) for copies of the standard. Additional information on the standard is available at www.isa.org.
