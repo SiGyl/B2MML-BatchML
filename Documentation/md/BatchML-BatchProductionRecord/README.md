@@ -2,21 +2,9 @@
 
 The Business To Manufacturing Markup Language (B2MML) is used courtesy of MESA International.
 
-## Change history
-
-These are changes to source docx file for subsequent changes inspect the git repository
-
-| Change | Date     | Person        | Description
-| ------ | ----     | ------        | -----------
-| V0500  | Mar 2011 | Dennis Brandl | **Initial version** Includes elements from ANSI/ISA 95.02-2010 for Operations Performance, Operations Schedule, Operations Definitions, and Physical Asset resources
-| V0600  |Aug 2012  | Dennis Brandl | Change to MESA copyright 
-| V0700  | Aug 2016 | D. Brandl     | Changed version number only 
-
 ## Diagram Convention
 
-The schema diagrams using the following convention to illustrate the structure of the schema elements, the type of the elements and attributes, and the rules for optional elements and repetition. 
-
-![diagram-convention](../diagram-convention.jpg)
+[see here](../diagram-convention)
 
 ## Schema Scope
 This document provides explanatory information about the referenced MESA XML schemas used to exchange information about batch production records, called the Batch Markup Language, or BatchML.  

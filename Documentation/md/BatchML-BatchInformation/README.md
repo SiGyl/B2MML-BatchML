@@ -2,25 +2,9 @@
 
 The Business To Manufacturing Markup Language (B2MML) is used courtesy of MESA International.
 
-## Change history
-
-These are changes to source docx file for subsequent changes inspect the git repository
-
-| Change | Date        | Person           | Description
-| ------ | ----        | ------           | -----------
-| V01    |7 April 2002 | Dennis Brandl <br/>Dave Emerson| Initial release
-| V01-01 |7 March 2003 | Dennis Brandl    |Changed use of ##any to an encapsulating element AnyType and use of Other in enumerated types
-| V02    |23 Sept 2003 | Dennis Brandl    |Changed to support V02 & single schema file <br/> Inserted documentation on DateType
-| V0401  |Oct 2008     | Dennis Brandl <br/>Dave Emerson |Added substitution groups for extensions, now matches B2MML. <br/>Convert to the B2MML Name Space<br/>Change multiple type names by appending “Batch” to eliminate type name conflicts<br/>Change the version numbering to match the associated B2MML version. <br/>Change name to B2MML BatchInformation
-| V0500  |Mar 2011     |Dennis Brandl     |Removed AnyType (##any) from all elements.
-| V0600  |Aug 2012     |Dennis Brandl     |Updated version documentation and MESA name in copyright.<br/>Corrected V0500 Errata #2, incorrect extension in FromIDType. 
-| V0700  |Aug 2016     |Dennis Brandl     |Updated version number
-
 ## Diagram Convention
 
-The schema diagrams using the following convention to illustrate the structure of the schema elements, the type of the elements and attributes, and the rules for optional elements and repetition. 
-
-![diagram-convention](../diagram-convention.jpg)
+[see here](../diagram-convention)
 
 ## Schema Scope
 
